@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexi Fit App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="homepage">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-0"></div>
+            <div class="col-lg-5 col-md-12">
+                <div class="card mt-5 pb-5" style="width: 100%;">
+                    <div class="card-body">
+                        <form action="">
+                            <div class="row  text-center">
+                                <div class="col-12">
+                                    <img src="images/publicis-groupe.png" alt="" width="120">
+                                </div>
+                                <div class="col-12">
+                                    <h2 class="card-subtitle mb-2 text-black py-4 fw-semibold fs-4">TALENT PORTAL</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="user" class="form-label">User Name</label>
+                                        <input type="text" class="form-control py-3" id="user" placeholder="" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="pass" class="form-label">Password</label>
+                                        <input type="password" id="pass" class="form-control py-3" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-check">
+                                        <input class="form-check-input border-dark" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                        Remember Me
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-6 text-end">
+                                    <a href="#" class="link">Forgot password?</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-grid my-4">
+                                        <button type="submit" class="btn btn-primary btn-block py-2 border-0" onclick="login()">Secure Sign In</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+        const user = "janki";
+        const pass = "123";
+        const login = function() {
+            event.preventDefault()
+            const newUser = document.querySelector('#user').value;
+            const newPass = document.querySelector('#pass').value;
+            if(user === newUser && pass === newPass){
+                console.log("hi", user)
+                window.open("flexi-dashboard.html",'_self');
+            }else{
+                alert("User or pasword is incorrect, please user correct user id and password for login");
+            }
+        }
+        document.addEventListener('keyup', function(e){
+            (e.keyCode === 13) ? login() : '';
+        })
+    </script>
+</body>
+</html>

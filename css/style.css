@@ -1,0 +1,82 @@
+.homepage{
+    background: rgb(33, 43, 54);
+    background-image: url('../images/homepage-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.link{
+    color: rgb(157, 131, 62);
+    text-decoration: none;
+}
+
+.link-color{
+    color: rgb(157, 131, 62);
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.btn-primary{
+    background-color: rgb(157, 131, 62);
+}
+
+.btn-primary:hover{
+    background-color: rgb(134, 112, 56);
+}
+
+.flexi-dashboard{
+    background-color: rgb(249, 250, 251);
+}
+
+.search-input input, .search-input button{
+    background-color: rgba(238, 242, 248, 0.8);
+}
+
+.top-list-item {
+	margin: 0 10px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	font-size: 18px;
+	color: #777;
+}
+
+.carousel .carousel-item img{
+    max-height: 300px;
+    border-radius: 5px;
+}
+
+.card-info {
+	display: block;
+	text-align: left;
+	min-height: 50px;
+}
+
+.dashboard-bg{
+    background-color: #fdfbf9;
+}
+
+.icon-circle {
+	font-size: 3rem;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+.shadow-sm{
+    transition: all 0.5s ease-in-out;
+}
+
+.shadow-sm:hover {
+	box-shadow: 0px 9px 12px -2px rgba(0,0,0,0.4) !important;
+}

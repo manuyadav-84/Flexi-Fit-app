@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexi dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="flexi-dashboard">
+    <div class="container-fluid">
+        <div class="row my-3">
+            <div class="col-12">
+                <div class="topbar">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="input-group mb-3 search-input">
+                                <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                                <button class="btn btn-outline-secondary dropdown-toggle border-grey" type="button" data-bs-toggle="dropdown" aria-expanded="false">Feature</button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                  <li><a class="dropdown-item" href="#">Feature</a></li>
+                                  <li><a class="dropdown-item" href="#">People</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6- col-12 text-end pe-5">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="index.html" class="top-list-item">
+                                        <i class="fa-solid fa-house"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="" class="top-list-item">
+                                    <i class="fa-solid fa-sitemap"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="" class="top-list-item">
+                                    <img src="images/user-icon.png" width="40" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <div id="carousel1" class="carousel slide shadow" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000004/d5bcd412-3480-4cea-a77a-6f48dfe7cc10?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=FzYuWSjQnbjwsFA~kRQ9EZI2VS7V4PuDR42exPG0LSbDQxLGemW2LjWZ~kVgbArFUa2fHOx38hhgK5q5x311~FjJ5cMXGitG-~ldlivm18TloIsK81tD2Dd5sHMRNUmzOrh39Ql3WfSmwDPUtvF41~w51iZdIm5lsozRAf9WSWWcQn30NoVODG7LKaUQN5BiimE51ksB-y0I-RDesKU7Axt9L6vl0Pa~NwGPBxi9Vxk9sIaxfOZ2pz~j9vRBIkFyQE9hkAt05oWOeO-gi25latRym1IwflcV8cJsFjDTmffnzpLYBZl~nDNikgyJq6jwlX~hkmcWi8MU7cLNrU8rsQ__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000004/860e7df9-fad7-4c3f-a0a3-88c501dadd86?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=FAcSS9hMd1ZuIOzm6-HmXj0QF4Q9ZbAnClNt9iAiwUwhCcfGtai32B~ZJoSVo-1RU73-0qlEUVyZ84EYpOKtXSxT1BKoVffPvFpDqaCECZOi7Do1Zocd0kjPfU89Qe4tjlYomV8nou8yVpis9FLmIKi4~5K4dXaqH8~HJutNKAvbu9DZVbyIfm6BTgoaCiqP-z1ouFS6VnKIsy7LdHGxLOjbksGYwSKIVA2W2iTQ~hvdfN6v2SSPij7ywQ-jrPcjviD-u-33dbi1NBuDrOoXflBJkvRciAcLxfs27SBmxHsfSYFaPesWUGgUqEfJYBnb0cV~auT6cxMZDR1t3GH7fg__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000004/ac1c0f95-a733-49fb-a074-e9aeb7ef53b3?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=OLiYmPf3bkWaAgduAy~0lHNMsOLIP1SKlMtOudnJh0~Yyr8MjmsUWI~7Bq5x6vAiMUtDfob~iD~Sk3GYQUhORa4a2VTMEY1gedmUck-J2FpPmsXNe1kv7c5Z86DQwHwZND8hbJG4sXMl~aRl0ty8nA5esGz827aNoNSHX325ERaS6hdjKjSqkSznyf11Q58ORhipSqiWGHcHgV3avxzhpZmSE6y6dTz4Z--AAtJCA9V0n3PxyWywpcoWYOB7QzS2O92qQuJC9bPxkn6dwKKB58M1cwc91OV4bhfu49jUFdhODBlFdnX0L5qLYVaHR1a622DYjV8Xd72fr4Png2U7Zw__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000004/61bdb67f-cd0f-4dd4-86e9-2212c1d962bb?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=H9XwMwCWTyASDOrBxsdfGYhSHBQwzJjfdwV4~cftuWPjWaUSnaGdNTwoyqL~1Bp4VLpjrzeBFrwHLEjNeIE7JlxZH8e5R87hihD2jmwionnlGJh-z7DEOP~GZlbzbkkGbdVstW4SGRhgD9lzY7A1hXrmt2DlpUZT75Ela5B8psRWJMNMQxHQre5-4UDad-zs0Kvxj~H1LK6xmaXAFBkniNydESaAQ4k6GKMl3Hj3uN1JtY9F7iwdgOuJrxRfBKVh1hrG~gqw7JRUFK~QPhBeDXy9C3ez4LuATIj6I6Q4ZNK0YQzoXmeMyIfcYNBHpDvHaL5OvQAAqiWjVL~6r2wPNg__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000004/73463766-b134-4cb6-99b7-201ce7aa01c4?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=Vc4NvXP2nJH6jsi8~Lissf~igucMQu9rG4O7OmCWTTp9typBZFs1FV~2Nwe7-iOjtaBHiEZ2-qN4NYS7OF-MK52NCMxb953b9XvFl92csDHpHfphAjz1gp1pTuXFK6nXb6JCIILQdgH3MEukhwPVzTIeZCil9OH449w64d75oxh4fwe02HH81ZeJGTPMYIZuDfoAMLVz6awDDKYsCSBCteIdd33fzur71cRg~Gd-r2Jv~vTmm02LFIKR8dktRJTrfJf~6nNcY6Ae2IO6W-j~eXRWh1JfTDL9ixK3nqHXExRdH2QSMo5E-X0eftAgioa09sfd8VVidrrBl3dGI4bKrw__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <div id="carousel2" class="carousel slide shadow" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/5f3232e0-8542-4e96-a098-7a8b5c9f35cf?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=BIAc8Jn6j4f0DpmnSmbAOABnaGJLVa4AuiDsDGrR0C-W5RYyGP0pja9m1rhHGz~3V9zgJgHE8somY1HNBGOpYT1u7Cd6RAUs~9VO0hgVqukfg64rQeKrxfJ5OxWNE5RtsNHgRDYFj-c6~Y5soIdt0nlX6q4PpPulgupzeAdJQgXiUUbuQdlWfE6q5TDLJ~Qc0QFwI0U9N85nRdGyamZbf-YjxbNhNSwuOSDtSqaINE13FfxOTUrSInHzcZUHQvq9laMAtEffYtU~qHWh7mWEUkzLgR57nkoKRSMcsMr1VgfI20sPdm8Bq0p16xHAHPji2gBPOlDc0aaTitORtx5aJw__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/fdc2c213-a556-45c5-8369-7f6ac2e38e54?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=InIpBk2ho3szAXxG8F~b4ColRhvJYOMMcKZ39BXVTwCuRnzKxK1qUjPWt-AZJzc4BzjbnapMGEoHrJ-cPgEupqLnGqkTe~NhMN~IWdpQlM8-9hcukezQfow8s~w-CKng~RQqEGwTK4eAjAyFd2SgzjjsvXkLPk~TV8tyy-XGwMSFid9evrYNaN4CWEdXlj0gm7~SxKzxlWUxHWOrm22BpQOVMKxNMuMjDGCPhqaaC1t6p0vvr5p~OG4CXALOsU0QmNB40w56OO9kNVpioafS3GSs-FRVFvJD4cD1x~YT0cIKWD5aN~oU8~bvLEzNW5cLLna-DpPswotZmWOjyx7nWQ__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/81460864-4b1e-4223-ae71-121b79dd3b82?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=Gj2uInwv~h95PZ9zRrOBkj1s6thtlUyoCHf~xRhWN2fhNqqvM~NmyaBeypJ6FpzA0DNTlJcok31PBR7qUXC6BZksFqyitI2zUxP7RuTZahuTZb43xoLrTn~vsqwyB~3XICoUcTx5ATGF50PnM1QXmFpK-IrsIuehlOzWJ5sfl7FqnnhEVZduqZN8jCwSFhPJTxfRxdas7XqqVic8WQ~amtB8ZTDJuyOIY4uqvabZmdxsKxmUp4j5NIOCt3VLLlO3CbhUJRHYrGisSRLKGUkAp8m-Uaw2L47WBxUg2HZ2ngdoluBEnfXa-6pWHd3aY8ApMsdCNyx-P74i0mYwml11lg__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/018fd9c0-2495-4609-960a-e1b71a2b54e4?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=CGriXrl3CK3fcgeqaRhZm92mmtwSDcKDcb8dA0QPrM0~uXCsBTUhvA0zK6wR~Zfs2adlqO8WSz-A0AQmM~rM6uQIq9~Q87nmT7GPcwaIk7UJN7bX7cgNGvJ3iL439QqYlYCDQDcr4HvjlvXB8FiQfmkKl5Q-ujaUu14waPHCli84QmVghlDgnH9vIStWRxqNewovaRNZ6lcAvQzR3K03nxiKOemv5fY66t1NA3xhl~pg7-eYMwB7PXHq2uDisUDZoYgOK7K0su-4k8fTR2Wg3jOmS83vw-pESkezLpVsLGBDDacPrRPoFbYf9KK0nQti0tVYL8U4zovlH8uCLmlvPQ__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/6651a68f-bb5d-4c5d-abd2-00930ba548e5?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=arATC5l-FauGgxlIcMEZwd9QPenrhLTIO7~cmUnjel27uaTm56Q0F7BbF40gQECnSM49Mk2l9ZsoJzIAHuJiqb9XnwKb3koyLONPoZ5z~lnId6bxvaBTb93E4udTH-0-Tqsu4onLnN~whdTDFnv2zhVDbleUzwY9LGAqTtu~pqsAXmvQ2LqQVbpE5tTf4uQd2tPEhKRsZfMUhl9UEXs6Gku~yM-217u8KvlspvMqnGI1iuOy6RRThvFm73InN0Xx5uYXSOGvvQUboU5ECUJzs~lzL-K-J76GZ5Eq6h1DIZjpAY-EShrt40C5DOMwvIKeX1UaqYeDcXsfKygYY7tGzA__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <div id="carousel3" class="carousel slide shadow" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/747bb270-699b-4a14-b76c-5d0810d78072?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=L~xDcRA8D~H1N7djmNauMs-F~Zq5WrFNYxYcfiuB8Inbd~GUy1fL2MlsVYpofw8Rbnh~q616Hj9yspxftcTb46nfxAj0TBcoomtSW2ObzA~6cXrkAVonvXH6G5UTH-l1sfYZNEZPe1p4PibrCr~PcB3sbEpU0nkgm6H-QKj6~mPTFVTwfY-MTt8-SR-kMkjF4me-7HwyCtOfXBakDz2oDZxwkofCzPyzU~WJqBCS6GSvG03bvjdsn1ToVHIJPpcGo146fZUJexYbbPZFRab1SQRT5XBaXPGMCn~Te3fn1hv~mG-0NT58xeGvCNtq6F-ZBWr34GVqE~HITPJYrxbaRQ__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/29503d00-7b8b-441c-878a-9d26feb0b92c?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=WM7oay5BJwy7Q11KiGWrbKgF9Z1ytea7G~MQMtaL2~7Fdci34y0hgI8sxLVZ20fnijit96ozLv0XibUnm96P-sqPHJJgtil28Ur6I62xn-Id96vFLD8x4VT8o27ysV9kFJk-0CFo4Z4KqOeII4BPe~~hbSazv2ilKDukwOXJZAF7IckCMwzkka0KCYNxtU~CM2Dm5RL30Wh27zeAgrRUZB0Fh8XOjxu6HPoLcJWda-jqgQ7tKYT1fvMJuR-Q~2Jr~0zdt0VGHoP2AX83joJXejFoqV~iExodAnjjOV0vzFo9ISzvu~eTYxsnUUaFiGBV2QhnGvLDRr3m5JqIdyytpg__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/f1763573-4c22-4bc6-9eec-da52be923df1?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=H2-mLvNf90Y73T5uC7aax4i8dYHxRw4~4V6N4NRYSxGWBv~rbtX61hRAgM5HPQwhvWDyIuiChZe2-LQS7XbvEgrYWMGxL~z7NP5sUd2ZseN5tm583PQFeVztVgvpfp3IM~o1KMtAvJLkvlbIDUUageJ9msS2XbPTMwPvMhmtu~FADQSHcgAueamtkYItmHK-rzyLvlWJH5Tztj3sp1ftnzB~C5YL-HeIRGe~cMIPj9YHef2zAMgqWNzeDOd3dSRc2~aoZHJRMQxMg5oxb38Ga5kllytrnqwJQUyMuKr0Kb29wglQCnxt5EhVhAtFmCab~KbQc-MroBKYg4M8KW8uJg__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/6dc3bc06-3e8e-43b8-8809-29ebbbb39ce5?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=bl1tXPOs1Oi~NS8~tEYecEOuCe1hoqxvMeyX9sdCjAlKT4BxOcZCHyiaW60F1XxR~hqQ1PJbcP21tRP1H4p4E9K7t05wGZMrVgYlobVdxQX6Rj9ntWfA-NRjNFEws0ghsIzrnUet8hOepbIx0eiJ7ymiXTDgUm9ubKwdJyyv~ludKk5hOJ7FEWB2AY2vB6F7XKDxQdm9ERMRqxIPNUO~9pObMUa7zg5CoxcVNHmzjPv~WBeCMErrn-1LmiGWGOxvjOpTC99BkeqzDrd99jFeXNUscb2UDZRVhan1cAk4dqSvY3rfvTkzZRrdAK4fPEZTcotbz160a9ltDNvXvBNDdg__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://dc57tidvbpwnf.cloudfront.net/publicis/FLS0000003/63a5cc7d-eeea-4619-bd65-83feaa8b48f4?Expires=315569520000&Key-Pair-Id=APKAJONMV73GMYW5ILGQ&Signature=JHfeC8DXOOPwcDQk~MY8tjOQTHhPOxK~C7YJNqlrhxmKisCbsVcllHgEL0K-mgDhpYWpM5mv9yXqJGYEs7coRb4jufW4qn9J5wMP17UH6qa1BtKetRdpBhFb~4U0OQ-Md0nfHaCPL1iORAVr68-XTsR9krM13j0~Gq2vwZIz3PjG7mECf5gYqbvrDdc9ScKppsc5HRABXgiUjF0ullIT8xBfMD~FMIpGuIBEZb88IxcQDumxmKspPKA1fLDG17PQImD9vzeapri8iNxHMyQG5kgO29ghKGEwUAT9QualhpCdx-wZlhvbeLGbdNL08m3goJqMl3-qITbQpd1zd5tILQ__"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card shadow p-3">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-4 col-12">
+                            <button type="button" class="btn btn-light fs-4 link-color">
+                                <i class="fa-solid fa-right-to-bracket"></i> 
+                                <!-- Check In -->
+                                09:03 AM
+                            </button>
+                            <address class="mt-2">
+                                <i class="fa-sharp fa-solid fa-location-dot"></i> 52MV+RH9, Siddhivinayak Nagar, Prashant Nagar, Sadguru Nagar, Diva, Thane, Maharashtra 400612, India
+                            </address>
+                        </div>
+                        <div class="col-md-4 col-12 text-center">
+                            <h2>1 hrs 49 min</h2>
+                            <span>Worked Hours</span>
+                        </div>
+                        <div class="col-md-4 col-12 text-end">
+                            <button type="button" class="btn btn-light fs-4 link-color" onclick="window.open('index.html','_self')">
+                                <i class="fa-solid fa-right-from-bracket"></i> Check out
+                            </button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card shadow p-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12 col-lg-2">
+                                <h1 class="fs-4 fw-light">Hello, Janki</h1>
+                                <h2 class="fs-6 fw-medium text-secondary">Your Daily Activity  > </h2>
+                            </div>
+                            <div class="col-12 col-lg-8">
+                                <div class="row d-flex">
+                                    <div class="col">
+                                        <h4 class="link-color fs-5 fw-light">
+                                            <i class="fa-solid fa-person-walking"></i> Steps
+                                        </h4>
+                                        <h3 class="fw-light" id="steps">5000</h3>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="link-color fs-5 fw-light">
+                                            <i class="fa-sharp fa-solid fa-stopwatch"></i> Active Time
+                                        </h4>
+                                        <h3 class="fw-light" id="duration">43 min</h3>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="link-color fs-5 fw-light">
+                                            <i class="fa-solid fa-arrows-left-right-to-line"></i> Distance
+                                        </h4>
+                                        <h3 class="fw-light" id="distance">2.5 km</h3>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="link-color fs-5 fw-light">
+                                            <i class="fa-solid fa-gauge-high"></i> Pace (km/h)
+                                        </h4>
+                                        <h3 class="fw-light">8 km/h</h3>
+                                    </div>
+                                    <div class="col">
+                                        <h4 class="link-color fs-5 fw-light">
+                                            <i class="fa-sharp fa-solid fa-fire"></i> Calories
+                                        </h4>
+                                        <h3 class="fw-light" id="calories">365 kcal</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-2 text-center">
+                                <button type="button" class="btn btn-primary btn-block py-3 border-0" onclick="window.open('fit-dashboard.html','_self')">Goto Dashboard</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-12">
+                <h3 class="px-3">What do you want to do today?</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-3 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <h4 class="fs-6 mb-3">Regularize Attendance</h4>
+                        <img src="images/attendance-icon.png" class="my-4" alt="">
+                        <small class="fw-light card-info">Mark check-in, check-out, request for regularisation to your manager.</small>
+                        
+                        <button class="btn btn-primary btn-block py-2 my-3 border-0 w-100">
+                            Regularize Attendance
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <h4 class="fs-6 mb-3">Apply Leave</h4>
+                        <img src="images/leave-icon.webp" class="my-4" alt="">
+                        <small class="fw-light card-info">Manage all your leave related data from here.</small>
+                        
+                        <button class="btn btn-primary btn-block py-2 my-3 border-0 w-100">
+                            Apply Leave
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <h4 class="fs-6 mb-3">View Roster</h4>
+                        <img src="images/roster.webp" class="my-4" alt="">
+                        <small class="fw-light card-info">View roster controller to check your roster</small>
+                        
+                        <button class="btn btn-primary btn-block py-2 my-3 border-0 w-100">
+                            View Roster
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <h4 class="fs-6 mb-3">Initiate Resignation</h4>
+                        <img src="images/resignation-icon.png" height="65" class="my-4" alt="">
+                        <small class="fw-light card-info">Moving on! Initiate exit request, view status and track relieving formalities.</small>
+                        
+                        <button class="btn btn-primary btn-block py-2 my-3 border-0 w-100">
+                            Initiate Resignation
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <h4 class="fs-6 mb-3">View Dashboard</h4>
+                        <img src="images/dashboard-icon.webp" class="my-4" alt="">
+                        <small class="fw-light card-info">Access company updates, team structure, special announcements & holiday calendar.</small>
+                        
+                        <button class="btn btn-primary btn-block py-2 my-3 border-0 w-100">
+                            View Dashboard
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <h4 class="fs-6 mb-3">Change Approver</h4>
+                        <img src="images/change-approver-icon.png" class="my-4" alt="">
+                        <small class="fw-light card-info">Request for a change of reporting manager confidentially.</small>
+                        
+                        <button class="btn btn-primary btn-block py-2 my-3 border-0 w-100">
+                            Change Approver
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <h4 class="fs-6 mb-3">My Compliances</h4>
+                        <img src="images/compliances-icon.webp" class="my-4" alt="">
+                        <small class="fw-light card-info">Find Company policies and your undertakings here.</small>
+                        
+                        <button class="btn btn-primary btn-block py-2 my-3 border-0 w-100">
+                            My Compliances
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <h4 class="fs-6 mb-3">Org Hierarchy</h4>
+                        <img src="images/hierarchy-icon.png" class="my-4" alt="">
+                        <small class="fw-light card-info">View Organization Hierarchy</small>
+                        
+                        <button class="btn btn-primary btn-block py-2 my-3 border-0 w-100">
+                            Org Hierarchy
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 text-center">
+                        <h4 class="fs-6 mb-3">My Data</h4>
+                        <img src="images/my-data-icon.webp" class="my-4" alt="">
+                        <small class="fw-light card-info">Get a glimpse of all your employee data in one place.</small>
+                        
+                        <button class="btn btn-primary btn-block py-2 my-3 border-0 w-100">
+                            My Data
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="data/fitbit.js"></script>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>

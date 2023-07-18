@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="dashboard-bg">
+    <div class="container">
+        <div class="row mt-5 mb-3">
+            <div class="col-10">
+                <h1>Hello, Janki 👋</h1>
+                <h6 class="fw-light">Welcome and lets do some workout today</h6>
+            </div>
+            <div class="col-2">
+                <ul class="list-inline float-end">
+                    <li class="list-inline-item">
+                        <a class="fs-1 text-dark-emphasis me-4" href="flexi-dashboard.html">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h4 class="fw-light mb-3">Tracking History</h4>
+                                <p class="text-secondary mb-3 fw-light">Your steps for last 7 days</p>
+                                <div>
+                                    <canvas id="myChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-5">
+                                                <span class="icon-circle bg-info bg-gradient  bg-opacity-50 mx-auto">
+                                                    <i class="fa-solid fa-shoe-prints text-info-emphasis" style="transform: rotate(-90deg);"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col-7">
+                                                <h2 id="steps" class="fw-bold">5000</h2>
+                                                <span>Total Steps</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-12 mb-3">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-5">
+                                                <span class="icon-circle bg-danger bg-gradient text-danger-emphasis  bg-opacity-50 mx-auto">
+                                                    <i class="fa-sharp fa-solid fa-fire"></i>
+                                                </span>
+                                            </div>
+                                            <div class="col-7">
+                                                <h2 id="calories" class="fw-bold">1612</h2>
+                                                <span>Total Calories</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-12 mb-3">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-5">
+                                                <span class="icon-circle bg-success bg-gradient text-success-emphasis mx-auto bg-opacity-50">
+                                                    <!-- <i class="fa-solid fa-arrows-left-right-to-line"></i> -->
+                                                    <img src="./images/route.png" alt="route" width="45" style="opacity: 0.5;">
+                                                </span>
+                                            </div>
+                                            <div class="col-7">
+                                                <h2 id="distance" class="fw-bold">3.4 km</h2>
+                                                <span>Total Distance</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-5">
+                                                <span class="icon-circle bg-primary bg-gradient text-success-emphasis mx-auto bg-opacity-50">
+                                                    <i class="fa-solid fa-bed" style="font-size: 2.2rem;"></i>
+                                                    <!-- <img src="./images/route.png" alt="route" width="45" style="opacity: 0.5;"> -->
+                                                </span>
+                                            </div>
+                                            <div class="col-7">
+                                                <h2 id="sleep" class="fw-bold">8.5 hrs</h2>
+                                                <span>Sleep</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+    const ctx = document.getElementById('myChart');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat', 'Sun'],
+            datasets: [{
+                label: 'Steps',
+                data: [5000, 6300, 5200, 4890, 6400, 7210, 6500],
+                borderWidth: 1,
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+    </script>
+    <script src="data/fitbit.js"></script>
+    <script src="scripts/script.js"></script>
+    <script>
+        const myData = fetch('./data/fitbit.json')
+            .then(res => {
+                return res.json()
+            })
+            .then(data => {
+                return console.log(data);
+            })
+    </script>
+</body>
+</html>
