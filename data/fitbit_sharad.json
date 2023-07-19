@@ -1,0 +1,829 @@
+{
+    "bucket": [
+      {
+        "startTimeMillis": "1688927400000", 
+        "endTimeMillis": "1689013800000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688953327283631198", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689010921401318813", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 1874
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688953327283631198", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689000016930389180", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1080.3684115934343
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688927400000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689013800000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1565.0184342768973
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688953385283630174", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1688999968930385084", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.5696940412978275
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 5.083656642049918
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.29331842268860125
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688953380000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689000000000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 29
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689013800000", 
+        "endTimeMillis": "1689100200000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689039926263752970", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689088276898476476", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 3981
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689039926263752970", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689086694362184703", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 2590.963618034522
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689013800000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689100200000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1718.4718540458805
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689040140000000000", 
+                "endTimeNanos": "1689078480000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 19
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "intVal": 19
+                  }
+                ], 
+                "dataTypeName": "com.google.heart_minutes.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689040035263760650", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689086650362182655", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.3725790467770136
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 2.0302029997735387
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.3142697113646682
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689039960000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689085800000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 64
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689100200000", 
+        "endTimeMillis": "1689186600000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689126129992920868", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689177571749163139", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 1993
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689126129992920868", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689177571749163139", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1266.9097730275898
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689100200000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689186600000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1554.441578394714
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689171060000000000", 
+                "endTimeNanos": "1689171120000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "intVal": 1
+                  }
+                ], 
+                "dataTypeName": "com.google.heart_minutes.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689126241992929060", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689177537749162115", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.3411275754535108
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1.9988338164903092
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.3142697049169113
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689126180000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689172680000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 41
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689186600000", 
+        "endTimeMillis": "1689273000000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689212732205559458", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689267464232294453", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 3231
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689212850223779854", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689263508336604129", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 2155.6419392945245
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689186600000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689273000000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1626.8358681858958
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689213240000000000", 
+                "endTimeNanos": "1689214140000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 14
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "intVal": 13
+                  }
+                ], 
+                "dataTypeName": "com.google.heart_minutes.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689213025223790606", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689263472336602081", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.4720281835392226
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 2.0319531313345953
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.2723671067822726
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689212880000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689257820000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 48
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689273000000", 
+        "endTimeMillis": "1689359400000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689299090941115112", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689350485283329129", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 1375
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689299090941115112", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689346553919188248", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 738.1007331825037
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689273000000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689359400000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1578.9046992098993
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689299188941118184", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689346488919182616", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.32079009149316756
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.6697553490304785
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.26189144882910825
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689299100000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689346500000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 24
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689359400000", 
+        "endTimeMillis": "1689445800000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689397413055853706", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689433810887310534", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 2840
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689397413055853706", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689433810887310534", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1692.733960175954
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689359400000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689445800000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1556.3415038845944
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689397443055853706", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689433756887309510", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.33200987077249705
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1.2303351329721217
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.30379408064176555
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689397740000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689433800000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 56
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689445800000", 
+        "endTimeMillis": "1689532200000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689482092063610743", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689528135892005849", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 1412
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689482092063610743", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689528135892005849", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 800.3563548600733
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689445800000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689532200000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1538.3395284679066
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689482137063610231", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:vivo:V2239:6b1ce0c:STEP_COUNTER", 
+                "endTimeNanos": "1689528105892004825", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.32733918617923025
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1.2871464601201958
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.314269706413712
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689482100000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689521700000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 25
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }
+    ]
+  }

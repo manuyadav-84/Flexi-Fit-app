@@ -1,0 +1,797 @@
+{
+    "bucket": [
+      {
+        "startTimeMillis": "1688927400000", 
+        "endTimeMillis": "1689013800000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688951230415693920", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689010415620021668", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 2041
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688951230415693920", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689010415620021668", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 970.3752239894662
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688927400000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689013800000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1581.0098335651248
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688951260415693920", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689009028778834730", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.36935664751031094
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1.2027410273575425
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.2558293042821733
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1688955840000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689006360000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 20
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689013800000", 
+        "endTimeMillis": "1689100200000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689014102791583949", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689095703582137301", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 473
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689049732906831067", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689089360097000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 120.35857753212807
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689013800000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689100200000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1531.984643752543
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689049741216717882", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689089323096996416", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.3048948616414071
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.7848354025758045
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.29546432421251384
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689078720000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689078780000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 1
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689100200000", 
+        "endTimeMillis": "1689186600000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689117439203432417", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689177895515000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 1151
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689123620098997952", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689177323431000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 398.3344969089777
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689100200000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689186600000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1535.1154635517748
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689123650098998976", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689177264266498976", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.4136227685817844
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.9866921792894728
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.2641600205490575
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689137640000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689177300000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 8
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689186600000", 
+        "endTimeMillis": "1689273000000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689209581139000000", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689272374130867410", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 689
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689237810818973376", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689271602846000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 259.7809703299735
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689186600000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689273000000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1540.2040890043338
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689237984818986688", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689271590332551459", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.4573026764972344
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.8408370144805493
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.29644967567489133
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689237840000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689271620000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 11
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689273000000", 
+        "endTimeMillis": "1689359400000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689299094704631002", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689357320309000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 2004
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689305260068001024", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689357056483000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 828.9691689298314
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689273000000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689359400000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1556.6152084682521
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689305313068000512", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689357024482997952", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.3904603650680574
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1.1073815420013942
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.2409996870306851
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689305280000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689352800000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 19
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689359400000", 
+        "endTimeMillis": "1689445800000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689386190645000000", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689442662535754025", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 3409
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689387892462000000", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689442662535754025", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1754.8518056231953
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689359400000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689445800000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1644.5465883209567
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689429660000000000", 
+                "endTimeNanos": "1689429900000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 2
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "intVal": 2
+                  }
+                ], 
+                "dataTypeName": "com.google.heart_minutes.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689387922462000000", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689442632535754025", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.8378724856923851
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 14.809271812438965
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.2668047285194957
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689392820000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689442620000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 40
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }, 
+      {
+        "startTimeMillis": "1689445800000", 
+        "endTimeMillis": "1689532200000", 
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689482170371590882", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689528344662774754", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 883
+                  }
+                ], 
+                "dataTypeName": "com.google.step_count.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689482170371590882", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689528344662774754", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 312.50012975399414
+                  }
+                ], 
+                "dataTypeName": "com.google.distance.delta"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689445800000000000", 
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended", 
+                "endTimeNanos": "1689532200000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 1531.3687949402602
+                  }
+                ], 
+                "dataTypeName": "com.google.calories.expended"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }, 
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689482198949970535", 
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-N960F:99816b42:SAMSUNG Step Counter Sensor", 
+                "endTimeNanos": "1689528304662770658", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.8476559326934118
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 14.036943435668945
+                  }, 
+                  {
+                    "mapVal": [], 
+                    "fpVal": 0.2535599531165226
+                  }
+                ], 
+                "dataTypeName": "com.google.speed.summary"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated", 
+            "point": [
+              {
+                "startTimeNanos": "1689482160000000000", 
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps", 
+                "endTimeNanos": "1689515820000000000", 
+                "value": [
+                  {
+                    "mapVal": [], 
+                    "intVal": 5
+                  }
+                ], 
+                "dataTypeName": "com.google.active_minutes"
+              }
+            ]
+          }, 
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated", 
+            "point": []
+          }
+        ]
+      }
+    ]
+  }
