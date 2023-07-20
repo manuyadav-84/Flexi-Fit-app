@@ -127,3 +127,44 @@ async function getData() {
 
 getData();
 
+//BMI calculator
+
+const btnEl = document.getElementById("btn");
+const bmiInputEl = document.getElementById("bmi-result");
+const pageBmi = document.getElementById("bmi");
+const weightConditionEl = document.getElementById("weight-condition");
+const weightConditionElPage = document.getElementById("w-condition");
+
+function calculateBMI() {
+    const heightValue = document.getElementById("height").value / 100;
+    const weightValue = document.getElementById("weight").value;
+
+    const bmiValue = weightValue / (heightValue * heightValue);
+
+    bmiInputEl.innerText = bmiValue.toFixed(2);
+    pageBmi.innerText = bmiValue.toFixed(2);
+
+    console.log(bmiValue)
+
+    if (bmiValue < 18.5) {
+        weightConditionEl.innerText = "Under weight";
+        weightConditionElPage.innerText = "Under weight";
+    } else if (bmiValue >= 18.5 && bmiValue <= 24.9) {
+        weightConditionEl.innerText = "Normal weight";
+        weightConditionElPage.innerText = "Normal weight";
+    } else if (bmiValue >= 25 && bmiValue <= 29.9) {
+        weightConditionEl.innerText = "Overweight";
+        weightConditionElPage.innerText = "Overweight";
+    } else if (bmiValue >= 30) {
+        weightConditionEl.innerText = "Obesity";
+        weightConditionElPage.innerText = "Obesity";
+    }
+    const barValue = ((bmiValue - 15) * 100) / 25;
+    console.log(barValue);
+
+    const progressBar = document.querySelector('.progress-bar');
+    progressBar.style.width = `${barValue}%`
+}
+
+btnEl.addEventListener("click", calculateBMI);
+
