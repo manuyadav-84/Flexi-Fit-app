@@ -15,7 +15,7 @@ const users = [
         user: 'archana',
         pass: '111'
     }
-]
+];
 
 let user = "";
 const login = function() {

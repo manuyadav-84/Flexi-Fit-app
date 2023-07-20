@@ -29,13 +29,34 @@
         <div class="row">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-lg-8 col-md-12">
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                                <h4 class="fw-light mb-3">Tracking History</h4>
-                                <p class="text-secondary mb-3 fw-light">Your steps for last 7 days</p>
-                                <div>
-                                    <canvas id="myChart"></canvas>
+                    <div class="col-lg-8 col-md-12 mb-3">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="fw-light mb-3">Tracking History</h3>
+                                        <p class="text-secondary mb-3 fw-light">Your steps for last 7 days</p>
+                                        <div>
+                                            <canvas id="myChart"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="fw-light mb-3">Your current BMI</h3>
+                                        <h2 class="mb-3"><span class="display-3" id="bmi">23.4</span> <small class="text-success fw-light">Normal Weight</small></h2>
+                                        <div class="bmi-bar mb-3">
+                                            <span>15</span>
+                                            <span class="float-end">40</span>
+                                            <div class="color-bar">
+                                            </div>
+                                            <div class="progress " style="height: 8px;" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar progress-bar-striped bg-info" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
