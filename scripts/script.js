@@ -22,19 +22,26 @@ const login = function() {
     event.preventDefault()
     const newUser = document.querySelector('#user').value;
     const newPass = document.querySelector('#pass').value;
+    const error = document.querySelector('#error')
 
-    users.forEach((i) => {
-        if(i.user === newUser && i.pass === newPass){
-            user = i.user;
-            window.open("flexi-dashboard.html",'_self');
-            localStorage.setItem("user", user);
+    document.querySelector('#pass').addEventListener('change', () => {
+        console.log('yes', error.classList)
+        if(error.classList.contains('d-none')){
+            console.log('uyfga fidgsiuy');
         }
     })
-    // if(user === newUser && pass === newPass){
-    //     window.open("flexi-dashboard.html",'_self');
-    // }else{
-    //     alert("User or pasword is incorrect, please user correct user id and password for login");
-    // }
+
+    users.forEach((i) => {
+        if(i.user === newUser){
+            user = i.user;
+            if( i.pass === newPass){
+                window.open("flexi-dashboard.html",'_self');
+                localStorage.setItem("user", user);
+            } else {
+                error.classList.remove('d-none');
+            }
+        } 
+    })
 }
 
 user = localStorage.getItem("user");
