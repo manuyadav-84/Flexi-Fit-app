@@ -65,16 +65,28 @@ async function getData() {
     console.log(data)
     const lastData = data.length
 
-    const selectData = 3;
+    const selectData =  data.length;
 
     let startTimeMillis = +(data[lastData - selectData].startTimeMillis);
     let endTimeMillis = +(data[lastData - selectData].endTimeMillis);
-    let startTimenanosecond = +(data[lastData - selectData].dataset[0].point[0].startTimeNanos);
-    let endTimenanosecond = +(data[lastData - selectData].dataset[0].point[0].endTimeNanos);
+    const startTimenanosecond = +(data[lastData - selectData].dataset[0].point[0].startTimeNanos);
+    const endTimenanosecond = +(data[lastData - selectData].dataset[0].point[0].endTimeNanos);
 
-    let userSteps = data[lastData - selectData].dataset[0].point[0].value[0].intVal;
-    let distanceInKm = (data[lastData - selectData].dataset[2].point[0].value[0].fpVal / 1000).toFixed(2);
-    let calories = Math.round(data[lastData - selectData].dataset[2].point[0].value[0].fpVal);
+    const userSteps = data[lastData - selectData].dataset[0].point[0].value[0].intVal;
+    const distanceInKm = (data[lastData - selectData].dataset[2].point[0].value[0].fpVal / 1000).toFixed(2);
+    const calories = Math.round(data[lastData - selectData].dataset[2].point[0].value[0].fpVal);
+
+    const userWeeklySteps = [];
+
+    for (let i = 0; i < data.length; i++) {
+        userWeeklySteps.push(data[i].dataset[0].point[0].value[0].intVal)
+      } 
+
+    // data.forEach((index)=>{
+    //     userWeeklySteps.push(data[index].dataset[0].point[0].value[0].intVal)
+    // })
+
+    console.log(userWeeklySteps)
 
     console.log(distanceInKm, calories)
 
@@ -120,9 +132,32 @@ async function getData() {
     const durationEl = document.getElementById('duration');
 
     distanceEl ? (distanceEl.innerText = distanceInKm + ' km') : '';
-    stepsEl ? (stepsEl.innerText = userSteps + ' kcal') : '';
+    stepsEl ? (stepsEl.innerText = userSteps + '') : '';
     durationEl ? (durationEl.innerText = durationInHrs) : '';
     caloriesEl ? (caloriesEl.innerText = calories + ' kcal') : '';
+
+    ////Charts js
+
+    const ctx = document.getElementById('myChart');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat', 'Sun'],
+            datasets: [{
+                label: 'Steps',
+                data: userWeeklySteps.reverse(),
+                borderWidth: 1,
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
 }
 
 getData();
@@ -134,6 +169,8 @@ const bmiInputEl = document.getElementById("bmi-result");
 const pageBmi = document.getElementById("bmi");
 const weightConditionEl = document.getElementById("weight-condition");
 const weightConditionElPage = document.getElementById("w-condition");
+let bmiImg = document.querySelector('#BIM-img img')?.getAttribute('src');
+console.log(bmiImg);
 
 function calculateBMI() {
     const heightValue = document.getElementById("height").value / 100;
@@ -166,19 +203,23 @@ function calculateBMI() {
     console.log(bmiValue)
 
     if (bmiValue < 18.5) {
-        weightConditionElPage.innerText = "Under weight";
+        weightConditionElPage.innerText = "Underweight";
+        document.querySelector('#BIM-img img').src = `./images/thin.png`;
         removeClass('underweight');
         scrollto();
     } else if (bmiValue >= 18.5 && bmiValue <= 24.9) {
         weightConditionElPage.innerText = "Normal weight";
+        document.querySelector('#BIM-img img').src = `./images/person.png`;
         removeClass('normalweight')
         scrollto();
     } else if (bmiValue >= 25 && bmiValue <= 29.9) {
         weightConditionElPage.innerText = "Overweight";
+        document.querySelector('#BIM-img img').src = `./images/fat-man.png`;
         removeClass('overweight')
         scrollto();
     } else if (bmiValue >= 30) {
         weightConditionElPage.innerText = "Obese";
+        document.querySelector('#BIM-img img').src = `./images/man.png`;
         removeClass('obese')
         scrollto();
     }
@@ -189,13 +230,13 @@ function calculateBMI() {
     progressBar.style.width = `${barValue}%`
 }
 
-btnEl.addEventListener("click", calculateBMI);
+btnEl?.addEventListener("click", calculateBMI);
 
 const heartCard = document.querySelector('.heartCard')
-heartCard.addEventListener('mouseenter', () => {
+heartCard?.addEventListener('mouseenter', () => {
     heartCard.querySelector('img').src = "./images/heartbeat.gif"
 })
-heartCard.addEventListener('mouseleave', () => {
+heartCard?.addEventListener('mouseleave', () => {
     heartCard.querySelector('img').src = "./images/heartbeat.png"
 })
 console.log(heartCard);

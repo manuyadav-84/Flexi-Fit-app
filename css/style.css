@@ -87,3 +87,18 @@
 	margin-bottom: 3px;
 	background-image: linear-gradient(-225deg, #a3ebff 0%, #a3ffab 20%, #efb42a 38%, #f15481 100%);
 }
+
+.progress-bar {
+	position: relative;
+}
+
+.progress-bar::after {
+	position: absolute;
+	content: '';
+	right: 2px;
+	top: 3px;
+	border: solid #eb0c0c;
+	transform: rotate(-135deg);
+	padding: 3px;
+	display: inline-block;
+}
