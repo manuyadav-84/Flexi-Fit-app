@@ -43,21 +43,163 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <div class="card shadow-sm">
+                                <div class="card shadow-sm" id="BMI-container">
                                     <div class="card-body">
-                                        <h3 class="fw-light mb-3">Your current BMI <!-- Button trigger modal -->
-                                            <button type="button" class="btn btn-primary float-end border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                              BMI Calculator
-                                            </button>    
-                                        </h3>
-                                        <h2 class="mb-3"><span class="display-3" id="bmi">--</span> <small class="text-success fw-light" id="w-condition"> *** Weight</small></h2>
-                                        <div class="bmi-bar mb-3">
-                                            <span>15</span>
-                                            <span class="float-end">40</span>
-                                            <div class="color-bar">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h3 class="fw-light mb-3">Your current BMI <!-- Button trigger modal -->
+                                                    <button type="button" class="btn btn-primary float-end border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                      BMI Calculator
+                                                    </button>    
+                                                </h3>
+                                                <h2 class="mb-3"><span class="display-3" id="bmi">--</span> <small class="text-success fw-light" id="w-condition"> *** Weight</small></h2>
+                                                <div class="bmi-bar mb-3">
+                                                    <span>15</span>
+                                                    <span class="float-end">40</span>
+                                                    <div class="color-bar">
+                                                    </div>
+                                                    <div class="progress " style="height: 5px;" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                                        <div class="progress-bar progress-bar-striped bg-info" style="width: 0%;"></div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="progress " style="height: 5px;" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                                <div class="progress-bar progress-bar-striped bg-info" style="width: 0%;"></div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-12" id="suggestions">
+                                                <div id="underweight" class="card text-bg-dark mb-3 d-none">
+                                                    <div class="card-header">
+                                                        <h2 class="text-center">You are <b>Underweight</b></h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Here are five tips to increase your weight gradually.</h5>
+                                                        <div class="card-text">
+                                                            <ol>
+                                                                <li>
+                                                                    <b>Eat smaller meals, more frequently.</b>, Being underweight means you will have lower energy requirements and a smaller stomach, so you will become full faster. Planning on eating five or six slightly smaller—but complete—meals throughout the day can help you to get the nutrients you need more regularly.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Eat 250-500 extra calories each day.</b> This is a good baseline to maintain when you’re trying to pack on pounds.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Choose high-calorie, protein-dense foods.</b> Meats, cheeses, and nutritious whole-grain, complex carbohydrates are excellent choices.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Avoid caffeinated drinks.</b> Caffeine suppresses a person’s appetite, and when striving for weight gains, you’ll want all the appetite you can get.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Exercising Right- lift weight -</b> Strength training is an important avenue for gaining weight and staying healthy. <b>But limit your cardio -</b> Cardio is important for overall health and strengthening the circulatory system, but aerobic exercise will burn weight you probably don’t want it to
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="normalweight" class="card text-bg-info mb-3 d-none">
+                                                    <div class="card-header">
+                                                        <h2 class="text-center">You are <b>Normalweight</b></h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Here are five tips for you</h5>
+                                                        <div class="card-text">
+                                                            <ol>
+                                                                <li>
+                                                                    <b>Here are five tips</b>, Continue to maintain a balanced diet with a variety of nutritious foods to support overall health and well-being.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Regular Exercise: </b> Engage in regular physical activity to improve cardiovascular health, maintain muscle tone, and boost overall energy levels.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Mindful Eating: </b> Practice mindful eating by paying attention to hunger cues and stopping when you feel full. Avoid emotional or stress-related eating.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Monitor Body Composition:</b> Focus on body composition rather than just weight. Measure factors like body fat percentage and muscle mass to assess overall health.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Regular Health Checkups:</b> Schedule regular health checkups with your healthcare provider to monitor your overall health and detect any potential issues early.
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="overweight" class="card text-bg-warning mb-3 d-none">
+                                                    <div class="card-header">
+                                                        <h2 class="text-center">You are <b>Overweight</b></h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">5 Ways to Reach a Healthy Weight</h5>
+                                                        <div class="card-text">
+                                                            <ol>
+                                                                <li>
+                                                                    <b>Exercise</b>, Regular physical activity burns calories and builds muscle — both of which help you
+                                                                    look and feel good and can help keep weight off.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Eat</b> 5 servings of fruits and veggies a day. Fruits and veggies are about more than just
+                                                                    vitamins and minerals.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Skip the sugary drinks.</b> Sugary drinks, such as soda, juice, sweet tea, and sports drinks, add
+                                                                    extra calories with little or no nutritional value.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Stay hydrated -</b> Drinking plenty of water can help promote weight loss by reducing Trusted
+                                                                    Source your food intake, especially if you drink water before a meal.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Get Enough Z’s -</b> “A lack of sleep increases your hunger hormone, ghrelin, and decreases your
+                                                                    satisfaction hormone, leptin, which can contribute to weight gain. So In addition to changing your
+                                                                    diet and exercise routine, getting enough sleep each night may be beneficial for weight loss.
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div id="obese" class="card text-bg-danger mb-3 d-none">
+                                                    <div class="card-header">
+                                                        <h2 class="text-center">You are <b>Obese</b></h2>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">5 tips to lose 10 kg or more in 8 weeks: </h5>
+                                                        <div class="card-text">
+                                                            <ol>
+                                                                <li>
+                                                                    <b>Engage in regular physical activity and exercise.-</b>, Regular exercise is vital for both physical and mental health. Increasing the frequency of physical activity in a disciplined and purposeful way is often crucial for successful weight loss. One hour of moderate-intensity activity per day, such as brisk walking, is ideal.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Trying intermittent fasting-</b> ntermittent fasting (IF) is a pattern of eating that involves regular short-term fasts and consuming meals within a shorter time during the day.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Eat mindfully, Cut Calories, Not Flavor: -</b> Many people benefit from mindful eating, which involves being fully aware of why, how, when, where, and what they eat. Eat more fiber, fiber moves slowly through the digestive tract and can help you feel fuller Trusted Source for longer to support weight loss
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>SELF-MONITORING: -</b> Set specific, realistic goals, such as three 15-minute walks per week. If there’s a break in your healthy eating or exercise, try to get back on track as quickly as possible.
+                                                                </li>
+                                                
+                                                                <li>
+                                                                    <b>Enjoy your workout: -</b> Do what you like and do it regularly, you can try yoga, Zumba or swimming. Consistency is important.
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -142,13 +284,14 @@
                             </div>
 
                             <div class="col-12 mb-3">
-                                <div class="card shadow-sm">
+                                <div class="card shadow-sm heartCard">
                                     <div class="card-body">
                                         <div class="row justify-content-center align-items-center">
                                             <div class="col-5">
-                                                <span class="icon-circle bg-danger bg-gradient text-success-emphasis mx-auto bg-opacity-50">
+                                                <span class="icon-circle bg-light bg-gradient text-success-emphasis mx-auto bg-opacity-50">
                                                     <!-- <i class="fa-solid fa-love" ></i> -->
-                                                    <i class="fa-solid fa-heart" style="font-size: 2.2rem;"></i>
+                                                    <!-- <i class="fa-solid fa-heart" style="font-size: 2.2rem;"></i> -->
+                                                    <img src="./images/heartbeat.png" style="max-width: 60px;">
                                                     <!-- <img src="./images/route.png" alt="route" width="45" style="opacity: 0.5;"> -->
                                                 </span>
                                             </div>
@@ -188,10 +331,10 @@
                 </div>
                 
                 <div class="d-grid mb-3">
-                    <button class="btn btn-primary" type="button" id="btn">Compute BMI</button>
+                    <button class="btn btn-primary" type="button" id="btn" data-bs-dismiss="modal">Compute BMI</button>
                 </div>
                 
-                <h4 class="fw-light mb-3">Weight Condition: <span id="bmi-result"></span> <small id="weight-condition" class="text-info-emphasis"></small></h4>
+                <!-- <h4 class="fw-light mb-3">Weight Condition: <span id="bmi-result"></span> <small id="weight-condition" class="text-info-emphasis"></small></h4> -->
             </div>
           </div>
         </div>

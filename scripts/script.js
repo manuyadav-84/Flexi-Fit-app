@@ -138,26 +138,49 @@ const weightConditionElPage = document.getElementById("w-condition");
 function calculateBMI() {
     const heightValue = document.getElementById("height").value / 100;
     const weightValue = document.getElementById("weight").value;
-
     const bmiValue = weightValue / (heightValue * heightValue);
+    const suggestions = document.querySelector('#suggestions');
+    const suggestionsCards = [...(suggestions.querySelectorAll('.card'))];
+    const removeClass = (id) => {
+        suggestions.querySelector(`#${id}`).classList.remove('d-none');
+    }
 
-    bmiInputEl.innerText = bmiValue.toFixed(2);
+    suggestionsCards.forEach((el)=>{
+        if(!el.classList.contains('d-none')){
+            el.classList.add('d-none');
+        }
+    });
+
+    const scrollto = () => {
+        window.scrollTo({
+            behavior: 'smooth',
+            top: document.getElementById('BMI-container').getBoundingClientRect().top
+                - document.body.getBoundingClientRect().top
+                // - this.offset,
+        });
+    }
+
+    // bmiInputEl.innerText = bmiValue.toFixed(2);
     pageBmi.innerText = bmiValue.toFixed(2);
 
     console.log(bmiValue)
 
     if (bmiValue < 18.5) {
-        weightConditionEl.innerText = "Under weight";
         weightConditionElPage.innerText = "Under weight";
+        removeClass('underweight');
+        scrollto();
     } else if (bmiValue >= 18.5 && bmiValue <= 24.9) {
-        weightConditionEl.innerText = "Normal weight";
         weightConditionElPage.innerText = "Normal weight";
+        removeClass('normalweight')
+        scrollto();
     } else if (bmiValue >= 25 && bmiValue <= 29.9) {
-        weightConditionEl.innerText = "Overweight";
         weightConditionElPage.innerText = "Overweight";
+        removeClass('overweight')
+        scrollto();
     } else if (bmiValue >= 30) {
-        weightConditionEl.innerText = "Obesity";
-        weightConditionElPage.innerText = "Obesity";
+        weightConditionElPage.innerText = "Obese";
+        removeClass('obese')
+        scrollto();
     }
     const barValue = ((bmiValue - 15) * 100) / 25;
     console.log(barValue);
@@ -167,4 +190,13 @@ function calculateBMI() {
 }
 
 btnEl.addEventListener("click", calculateBMI);
+
+const heartCard = document.querySelector('.heartCard')
+heartCard.addEventListener('mouseenter', () => {
+    heartCard.querySelector('img').src = "./images/heartbeat.gif"
+})
+heartCard.addEventListener('mouseleave', () => {
+    heartCard.querySelector('img').src = "./images/heartbeat.png"
+})
+console.log(heartCard);
 
