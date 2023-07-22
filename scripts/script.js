@@ -1,255 +1,243 @@
-console.log(userData)
+const users = [
+    {
+        user: 'janki',
+        pass: '123'
+    },
+    {
+        user: 'sharad',
+        pass: '123'
+    },
+    {
+        user: 'anil',
+        pass: '321'
+    },
+    {
+        user: 'archana',
+        pass: '111'
+    }
+];
 
+let user = "";
+const login = function() {
+    event.preventDefault()
+    const newUser = document.querySelector('#user').value;
+    const newPass = document.querySelector('#pass').value;
+    const error = document.querySelector('#error')
 
-// const userData = {
-//     "bucket": [
-//         {
-//         "startTimeMillis": "1687199400000", 
-//         "endTimeMillis": "1687285800000", 
-//         "dataset": [
-//             {
-//             "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
-//             "point": [
-//                 {
-//                 "startTimeNanos": "1687228630939792498", 
-//                 "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup", 
-//                 "endTimeNanos": "1687279425303100300", 
-//                 "value": [
-//                     {
-//                     "mapVal": [], 
-//                     "intVal": 8483
-//                     }
-//                 ], 
-//                 "dataTypeName": "com.google.step_count.delta"
-//                 }
-//             ]
-//             }
-//         ]
-//         }, 
-//         {
-//         "startTimeMillis": "1687285800000", 
-//         "endTimeMillis": "1687372200000", 
-//         "dataset": [
-//             {
-//             "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
-//             "point": [
-//                 {
-//                 "startTimeNanos": "1687310690303442029", 
-//                 "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup", 
-//                 "endTimeNanos": "1687369400412167352", 
-//                 "value": [
-//                     {
-//                     "mapVal": [], 
-//                     "intVal": 5963
-//                     }
-//                 ], 
-//                 "dataTypeName": "com.google.step_count.delta"
-//                 }
-//             ]
-//             }
-//         ]
-//         }, 
-//         {
-//         "startTimeMillis": "1687372200000", 
-//         "endTimeMillis": "1687458600000", 
-//         "dataset": [
-//             {
-//             "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
-//             "point": [
-//                 {
-//                 "startTimeNanos": "1687389041529581332", 
-//                 "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup", 
-//                 "endTimeNanos": "1687454393063772881", 
-//                 "value": [
-//                     {
-//                     "mapVal": [], 
-//                     "intVal": 960
-//                     }
-//                 ], 
-//                 "dataTypeName": "com.google.step_count.delta"
-//                 }
-//             ]
-//             }
-//         ]
-//         }, 
-//         {
-//         "startTimeMillis": "1687458600000", 
-//         "endTimeMillis": "1687545000000", 
-//         "dataset": [
-//             {
-//             "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
-//             "point": [
-//                 {
-//                 "startTimeNanos": "1687484069676096434", 
-//                 "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup", 
-//                 "endTimeNanos": "1687541534903187615", 
-//                 "value": [
-//                     {
-//                     "mapVal": [], 
-//                     "intVal": 4002
-//                     }
-//                 ], 
-//                 "dataTypeName": "com.google.step_count.delta"
-//                 }
-//             ]
-//             }
-//         ]
-//         }, 
-//         {
-//         "startTimeMillis": "1687545000000", 
-//         "endTimeMillis": "1687631400000", 
-//         "dataset": [
-//             {
-//             "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
-//             "point": [
-//                 {
-//                 "startTimeNanos": "1687573535238934901", 
-//                 "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup", 
-//                 "endTimeNanos": "1687627365890531034", 
-//                 "value": [
-//                     {
-//                     "mapVal": [], 
-//                     "intVal": 2315
-//                     }
-//                 ], 
-//                 "dataTypeName": "com.google.step_count.delta"
-//                 }
-//             ]
-//             }
-//         ]
-//         }, 
-//         {
-//         "startTimeMillis": "1687631400000", 
-//         "endTimeMillis": "1687717800000", 
-//         "dataset": [
-//             {
-//             "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
-//             "point": [
-//                 {
-//                 "startTimeNanos": "1687664159810774760", 
-//                 "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup", 
-//                 "endTimeNanos": "1687710867839893121", 
-//                 "value": [
-//                     {
-//                     "mapVal": [], 
-//                     "intVal": 1265
-//                     }
-//                 ], 
-//                 "dataTypeName": "com.google.step_count.delta"
-//                 }
-//             ]
-//             }
-//         ]
-//         }, 
-//         {
-//         "startTimeMillis": "1687717800000", 
-//         "endTimeMillis": "1687804200000", 
-//         "dataset": [
-//             {
-//             "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
-//             "point": [
-//                 {
-//                 "startTimeNanos": "1687748442033862742", 
-//                 "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup", 
-//                 "endTimeNanos": "1687803622402132467", 
-//                 "value": [
-//                     {
-//                     "mapVal": [], 
-//                     "intVal": 8385
-//                     }
-//                 ], 
-//                 "dataTypeName": "com.google.step_count.delta"
-//                 }
-//             ]
-//             }
-//         ]
-//         }, 
-//         {
-//         "startTimeMillis": "1687804200000", 
-//         "endTimeMillis": "1687852076183", 
-//         "dataset": [
-//             {
-//             "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated", 
-//             "point": [
-//                 {
-//                 "startTimeNanos": "1687830664775325152", 
-//                 "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup", 
-//                 "endTimeNanos": "1687848936318254015", 
-//                 "value": [
-//                     {
-//                     "mapVal": [], 
-//                     "intVal": 317
-//                     }
-//                 ], 
-//                 "dataTypeName": "com.google.step_count.delta"
-//                 }
-//             ]
-//             }
-//         ]
-//         }
-//     ]
-// }
+    document.querySelector('#pass').addEventListener('change', () => {
+        console.log('yes', error.classList)
+        if(error.classList.contains('d-none')){
+            console.log('uyfga fidgsiuy');
+        }
+    })
 
-const data = userData.bucket;
-const lastData = data.length
+    users.forEach((i) => {
+        if(i.user === newUser){
+            user = i.user;
+            if( i.pass === newPass){
+                window.open("flexi-dashboard.html",'_self');
+                localStorage.setItem("user", user);
+            } else {
+                error.classList.remove('d-none');
+            }
+        } 
+    })
+}
 
-console.log(lastData);
+user = localStorage.getItem("user");
 
-const selectData = 4;
+console.log(user);
 
-let startTimeMillis = +(data[lastData - selectData].startTimeMillis);
-let endTimeMillis = +(data[lastData - selectData].endTimeMillis);
-let startTimenanosecond = +(data[lastData - selectData].dataset[0].point[0].startTimeNanos);
-let endTimenanosecond = +(data[lastData - selectData].dataset[0].point[0].endTimeNanos);
+document.addEventListener('keyup', function(e){
+    (e.keyCode === 13) ? login() : '';
+})
 
-let userSteps = data[lastData - selectData].dataset[0].point[0].value[0].intVal;
-let distanceInKm = (data[lastData - selectData].dataset[2].point[0].value[0].fpVal / 1000).toFixed(2);
-let calories = Math.round(data[lastData - selectData].dataset[2].point[0].value[0].fpVal);
+const userWrapper = document.querySelector('#user');
 
-console.log(distanceInKm, calories)
+userWrapper.innerText = user.toUpperCase();
 
-let convertMilliSec = (x) => {
-    const nanoToMilliSec = +(String(Math.ceil(x / 1000000)))
-    function milliSecToDate(val) {
+async function getData() {
+    // const response= await fetch('./data/fitbit_janki.json');
+    const response= await fetch(`./data/fitbit_${user}.json`);
+    const userData= await response.json();
+
+    const data = userData.bucket;
+    console.log(data)
+    const lastData = data.length
+
+    const selectData =  data.length;
+
+    let startTimeMillis = +(data[lastData - selectData].startTimeMillis);
+    let endTimeMillis = +(data[lastData - selectData].endTimeMillis);
+    const startTimenanosecond = +(data[lastData - selectData].dataset[0].point[0].startTimeNanos);
+    const endTimenanosecond = +(data[lastData - selectData].dataset[0].point[0].endTimeNanos);
+
+    const userSteps = data[lastData - selectData].dataset[0].point[0].value[0].intVal;
+    const distanceInKm = (data[lastData - selectData].dataset[2].point[0].value[0].fpVal / 1000).toFixed(2);
+    const calories = Math.round(data[lastData - selectData].dataset[2].point[0].value[0].fpVal);
+
+    const userWeeklySteps = [];
+
+    for (let i = 0; i < data.length; i++) {
+        userWeeklySteps.push(data[i].dataset[0].point[0].value[0].intVal)
+      } 
+
+    // data.forEach((index)=>{
+    //     userWeeklySteps.push(data[index].dataset[0].point[0].value[0].intVal)
+    // })
+
+    console.log(userWeeklySteps)
+
+    console.log(distanceInKm, calories)
+
+    let convertMilliSec = (x) => {
+        const nanoToMilliSec = +(String(Math.ceil(x / 1000000)))
+        function milliSecToDate(val) {
+            let date = new Date(val);
+            return date;
+        }
+        return milliSecToDate(nanoToMilliSec)
+    };
+
+    const milliSecToDate = (val) => {
         let date = new Date(val);
         return date;
     }
-    return milliSecToDate(nanoToMilliSec)
-};
 
-const milliSecToDate = (val) => {
-    let date = new Date(val);
-    return date;
+    const msToTime = (ms) => {
+        let seconds = (ms / 1000).toFixed(1);
+        let minutes = (ms / (1000 * 60)).toFixed(1);
+        let hours = (ms / (1000 * 60 * 60)).toFixed(1);
+        let days = (ms / (1000 * 60 * 60 * 24)).toFixed(1);
+        if (seconds < 60) return seconds + " Sec";
+        else if (minutes < 60) return minutes + " Min";
+        else if (hours < 24) return hours + " Hrs";
+        else return days + " Days"
+    }
+
+    const durationInMs = convertMilliSec(endTimenanosecond) - convertMilliSec(startTimenanosecond)
+    const durationInMnt = (durationInMs / 60000)
+    const durationInHrs = msToTime(durationInMs);
+
+    console.log("startTimenanosecond", convertMilliSec(startTimenanosecond));
+    console.log("endTimenanosecond", convertMilliSec(endTimenanosecond));
+    console.log(durationInMs);
+    console.log(durationInMnt);
+    console.log(durationInHrs);
+    console.log(userSteps);
+
+    const stepsEl = document.getElementById('steps');
+    const distanceEl = document.getElementById('distance');
+    const caloriesEl = document.getElementById('calories');
+    const durationEl = document.getElementById('duration');
+
+    distanceEl ? (distanceEl.innerText = distanceInKm + ' km') : '';
+    stepsEl ? (stepsEl.innerText = userSteps + '') : '';
+    durationEl ? (durationEl.innerText = durationInHrs) : '';
+    caloriesEl ? (caloriesEl.innerText = calories + ' kcal') : '';
+
+    ////Charts js
+
+    const ctx = document.getElementById('myChart');
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat', 'Sun'],
+            datasets: [{
+                label: 'Steps',
+                data: userWeeklySteps.reverse(),
+                borderWidth: 1,
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
 }
 
-const msToTime = (ms) => {
-    let seconds = (ms / 1000).toFixed(1);
-    let minutes = (ms / (1000 * 60)).toFixed(1);
-    let hours = (ms / (1000 * 60 * 60)).toFixed(1);
-    let days = (ms / (1000 * 60 * 60 * 24)).toFixed(1);
-    if (seconds < 60) return seconds + " Sec";
-    else if (minutes < 60) return minutes + " Min";
-    else if (hours < 24) return hours + " Hrs";
-    else return days + " Days"
+getData();
+
+//BMI calculator
+
+const btnEl = document.getElementById("btn");
+const bmiInputEl = document.getElementById("bmi-result");
+const pageBmi = document.getElementById("bmi");
+const weightConditionEl = document.getElementById("weight-condition");
+const weightConditionElPage = document.getElementById("w-condition");
+let bmiImg = document.querySelector('#BIM-img img')?.getAttribute('src');
+console.log(bmiImg);
+
+function calculateBMI() {
+    const heightValue = document.getElementById("height").value / 100;
+    const weightValue = document.getElementById("weight").value;
+    const bmiValue = weightValue / (heightValue * heightValue);
+    const suggestions = document.querySelector('#suggestions');
+    const suggestionsCards = [...(suggestions.querySelectorAll('.card'))];
+    const removeClass = (id) => {
+        suggestions.querySelector(`#${id}`).classList.remove('d-none');
+    }
+
+    suggestionsCards.forEach((el)=>{
+        if(!el.classList.contains('d-none')){
+            el.classList.add('d-none');
+        }
+    });
+
+    const scrollto = () => {
+        window.scrollTo({
+            behavior: 'smooth',
+            top: document.getElementById('BMI-container').getBoundingClientRect().top
+                - document.body.getBoundingClientRect().top
+                // - this.offset,
+        });
+    }
+
+    // bmiInputEl.innerText = bmiValue.toFixed(2);
+    pageBmi.innerText = bmiValue.toFixed(2);
+
+    console.log(bmiValue)
+
+    if (bmiValue < 18.5) {
+        weightConditionElPage.innerText = "Underweight";
+        document.querySelector('#BIM-img img').src = `./images/thin.png`;
+        removeClass('underweight');
+        scrollto();
+    } else if (bmiValue >= 18.5 && bmiValue <= 24.9) {
+        weightConditionElPage.innerText = "Normal weight";
+        document.querySelector('#BIM-img img').src = `./images/person.png`;
+        removeClass('normalweight')
+        scrollto();
+    } else if (bmiValue >= 25 && bmiValue <= 29.9) {
+        weightConditionElPage.innerText = "Overweight";
+        document.querySelector('#BIM-img img').src = `./images/fat-man.png`;
+        removeClass('overweight')
+        scrollto();
+    } else if (bmiValue >= 30) {
+        weightConditionElPage.innerText = "Obese";
+        document.querySelector('#BIM-img img').src = `./images/man.png`;
+        removeClass('obese')
+        scrollto();
+    }
+    const barValue = ((bmiValue - 15) * 100) / 25;
+    console.log(barValue);
+
+    const progressBar = document.querySelector('.progress-bar');
+    progressBar.style.width = `${barValue}%`
 }
 
-const durationInMs = convertMilliSec(endTimenanosecond) - convertMilliSec(startTimenanosecond)
-const durationInMnt = (durationInMs / 60000)
-const durationInHrs = msToTime(durationInMs);
+btnEl?.addEventListener("click", calculateBMI);
 
-console.log("startTimenanosecond", convertMilliSec(startTimenanosecond));
-console.log("endTimenanosecond", convertMilliSec(endTimenanosecond));
-console.log(durationInMs);
-console.log(durationInMnt);
-console.log(durationInHrs);
-console.log(userSteps);
+const heartCard = document.querySelector('.heartCard')
+heartCard?.addEventListener('mouseenter', () => {
+    heartCard.querySelector('img').src = "./images/heartbeat.gif"
+})
+heartCard?.addEventListener('mouseleave', () => {
+    heartCard.querySelector('img').src = "./images/heartbeat.png"
+})
+console.log(heartCard);
 
-const stepsEl = document.getElementById('steps');
-const distanceEl = document.getElementById('distance');
-const caloriesEl = document.getElementById('calories');
-const durationEl = document.getElementById('duration');
-
-distanceEl ? (distanceEl.innerText = distanceInKm) : '';
-stepsEl ? (stepsEl.innerText = userSteps + ' kcal') : '';
-durationEl ? (durationEl.innerText = durationInHrs) : '';
-caloriesEl ? (caloriesEl.innerText = calories + ' kcal') : '';
