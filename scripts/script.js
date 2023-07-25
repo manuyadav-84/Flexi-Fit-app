@@ -136,6 +136,13 @@ async function getData() {
     durationEl ? (durationEl.innerText = durationInHrs) : '';
     caloriesEl ? (caloriesEl.innerText = calories + ' kcal') : '';
 
+    const targetSteps = document.querySelector('.targetValue');
+    console.log(+(targetSteps.innerText));
+
+    if(stepsElCount > 6000){
+
+    } 
+
     ////Charts js
 
     const ctx = document.getElementById('myChart');
@@ -150,6 +157,7 @@ async function getData() {
             }]
         },
         options: {
+            
             responsive: true,
             scales: {
                 y: {
