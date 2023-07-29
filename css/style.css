@@ -92,7 +92,7 @@
 	position: relative;
 }
 
-.progress-bar::after {
+/* .progress-bar::after {
 	position: absolute;
 	content: '';
 	right: 2px;
@@ -101,4 +101,4 @@
 	transform: rotate(-135deg);
 	padding: 3px;
 	display: inline-block;
-}
+} */

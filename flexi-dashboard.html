@@ -188,7 +188,13 @@
             <div class="col-12">
                 <div class="card shadow p-3">
                     <div class="card-body">
-                        <div class="row">
+                        <div class="row pb-2 mb-4 border-bottom">
+                            <div class="col-12">
+                                <h3 class="text-center">My Daily Steps Target : <span class="targetValue">6000</span></h3>
+                            </div>
+                        </div>
+
+                        <div class="row mb-4">
                             <div class="col-12 col-lg-2 mb-2">
                                 <h1 class="fs-4 fw-light">Hello, <span id="user">User</span></h1>
                                 <h2 class="fs-6 fw-medium text-secondary">Your Daily Activity  > </h2>
@@ -231,7 +237,28 @@
                             <div class="col-12 col-lg-2 text-center">
                                 <button type="button" class="btn btn-primary btn-block py-3 border-0" onclick="window.open('fit-dashboard.html','_self')">Goto Dashboard</button>
                             </div>
-                            
+                        </div>
+
+                        <div class="row mb-2">
+                            <div class="col-12">
+                                <div id="missedTarget" class="toast align-items-center text-bg-danger border-0 w-100" role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="d-flex">
+                                      <h5 class="toast-body text-center col-11 mb-0">
+                                        Hello, <span class="user">User</span>! you need more walking
+                                      </h5>
+                                      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                                    </div>
+                                </div>
+
+                                <div id="completedTarget" class="toast align-items-center text-bg-success border-0 w-100" role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="d-flex">
+                                      <h5 class="toast-body text-center col-11 mb-0">
+                                        Hello, <span class="user">User</span>! Congratulations you have achive your daily target
+                                      </h5>
+                                      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
