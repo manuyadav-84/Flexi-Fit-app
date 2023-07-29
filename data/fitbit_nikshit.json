@@ -1,0 +1,1850 @@
+{
+    "bucket": [
+        {
+            "startTimeMillis": "1688927400000",
+            "endTimeMillis": "1689013800000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1688928186859566826",
+                            "endTimeNanos": "1689010632216830554",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 276,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1688928186859566826",
+                            "endTimeNanos": "1689010632216830554",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 147.71354735192563,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1688927400000000000",
+                            "endTimeNanos": "1689013800000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 1938.2500000000002,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1688928216859566826",
+                            "endTimeNanos": "1689010602216830554",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.36478072657581306,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.6854227526602773,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.25391715912513374,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1688965680000000000",
+                            "endTimeNanos": "1688979240000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 3,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689013800000",
+            "endTimeMillis": "1689100200000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689013945295615177",
+                            "endTimeNanos": "1689097905810379869",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 818,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689048621951805564",
+                            "endTimeNanos": "1689097835050379160",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 402.73469412542966,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689013800000000000",
+                            "endTimeNanos": "1689100200000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 1964.5402381180556,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689049308392143095",
+                            "endTimeNanos": "1689097805050379160",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.31863874824272109,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.89836246250735263,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.26495703560883521,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689049260000000000",
+                            "endTimeNanos": "1689094440000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 7,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689100200000",
+            "endTimeMillis": "1689186600000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689100822182172263",
+                            "endTimeNanos": "1689182691381717585",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 323,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689100822182172263",
+                            "endTimeNanos": "1689168344534562786",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 94.9290120341429,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689100200000000000",
+                            "endTimeNanos": "1689186600000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 1999.6534662650463,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689100852182172263",
+                            "endTimeNanos": "1689168338824562786",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.60028985230605347,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.75403709783600226,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.27599691209253668,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689144000000000000",
+                            "endTimeNanos": "1689144120000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 2,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689186600000",
+            "endTimeMillis": "1689273000000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689188373309588546",
+                            "endTimeNanos": "1689270246640357203",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 2072,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689219768477083197",
+                            "endTimeNanos": "1689270186180357019",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 1207.2243536197718,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689186600000000000",
+                            "endTimeNanos": "1689273000000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 2059.4312588223374,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689269340000000000",
+                            "endTimeNanos": "1689269640000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 2,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 2,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689219798477083197",
+                            "endTimeNanos": "1689270141180357531",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.57000144302657774,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 1.3893067174248612,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.26495704908984991,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689224460000000000",
+                            "endTimeNanos": "1689270180000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 24,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689273000000",
+            "endTimeMillis": "1689359400000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689310454604207968",
+                            "endTimeNanos": "1689359309413761716",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 5120,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689310514604207968",
+                            "endTimeNanos": "1689355443050496826",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 3402.9765093591245,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689273000000000000",
+                            "endTimeNanos": "1689359400000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 2246.0772325137677,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689310680000000000",
+                            "endTimeNanos": "1689314040000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 12,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 12,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689310538514207876",
+                            "endTimeNanos": "1689355435620497121",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.587759671485514,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 1.4094198611048263,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.32328922166559115,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689310500000000000",
+                            "endTimeNanos": "1689355440000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 60,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689359400000",
+            "endTimeMillis": "1689445800000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689368312730441383",
+                            "endTimeNanos": "1689445729273258078",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 2424,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689410269123222271",
+                            "endTimeNanos": "1689445729273258078",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 1470.8072424899135,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689359400000000000",
+                            "endTimeNanos": "1689445800000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 2057.7836918618964,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689410307123223295",
+                            "endTimeNanos": "1689445688733258479",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.43181306217488619,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 1.5157739650419757,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.25391715912513374,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689410280000000000",
+                            "endTimeNanos": "1689445740000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 29,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689445800000",
+            "endTimeMillis": "1689532200000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689446944923988406",
+                            "endTimeNanos": "1689526928392666556",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 5878,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689446944923988406",
+                            "endTimeNanos": "1689526928392666556",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 3847.2542647567734,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689445800000000000",
+                            "endTimeNanos": "1689532200000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 2348.674977875462,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689488160000000000",
+                            "endTimeNanos": "1689526080000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 6,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 6,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689447044923986358",
+                            "endTimeNanos": "1689526919792666556",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.57009078758701459,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 1.3696869681455985,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.29202992713446924,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689447000000000000",
+                            "endTimeNanos": "1689526920000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 76,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689532200000",
+            "endTimeMillis": "1689618600000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689532524241636944",
+                            "endTimeNanos": "1689617891442445165",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 3580,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689595291197000000",
+                            "endTimeNanos": "1689595291197000000",
+                            "dataTypeName": "com.google.weight.summary",
+                            "originDataSourceId": "raw:com.google.weight:com.google.android.apps.fitness:user_input",
+                            "value": [
+                                {
+                                    "fpVal": 95,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 95,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 95,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689532593881634518",
+                            "endTimeNanos": "1689611407695067535",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 2383.4020012826736,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689532200000000000",
+                            "endTimeNanos": "1689618600000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 2223.1380349157362,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689573900000000000",
+                            "endTimeNanos": "1689578160000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 12,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 12,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689532636881635030",
+                            "endTimeNanos": "1689611350635065999",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.58697765165270666,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 1.3934033984551277,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.26694255369852071,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689532620000000000",
+                            "endTimeNanos": "1689611400000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 41,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689618600000",
+            "endTimeMillis": "1689705000000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689663624096129329",
+                            "endTimeNanos": "1689702356133892329",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 1351,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689663624096129329",
+                            "endTimeNanos": "1689701257983006465",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "derived:com.google.distance.delta:com.google.android.gms:merge_distance_delta",
+                            "value": [
+                                {
+                                    "fpVal": 821.85363339334651,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689618600000000000",
+                            "endTimeNanos": "1689705000000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 1889.9125627409412,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689696780000000000",
+                            "endTimeNanos": "1689696840000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 1,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 1,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689663654096129329",
+                            "endTimeNanos": "1689701243493007285",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.3975124555574634,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 1.4080678627916736,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.25581994729441565,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689696420000000000",
+                            "endTimeNanos": "1689701280000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 15,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689705000000",
+            "endTimeMillis": "1689791400000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689735016931427386",
+                            "endTimeNanos": "1689788034447000000",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 4315,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689735016931427386",
+                            "endTimeNanos": "1689787413828380573",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 2892.5403459724471,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689705000000000000",
+                            "endTimeNanos": "1689791400000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 1997.4144099856239,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689735120000000000",
+                            "endTimeNanos": "1689777180000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 4,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 4,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689735052931429434",
+                            "endTimeNanos": "1689787382828380061",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.60747836146133594,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 1.3500605332062818,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.26694255369852071,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689735060000000000",
+                            "endTimeNanos": "1689777180000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 69,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689791400000",
+            "endTimeMillis": "1689877800000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689825676565052371",
+                            "endTimeNanos": "1689873658388019096",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 211,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689832534915995904",
+                            "endTimeNanos": "1689873658388019096",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 116.1200108588565,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689791400000000000",
+                            "endTimeNanos": "1689877800000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 1839.7297666114664,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689832570915997952",
+                            "endTimeNanos": "1689873625388017560",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.303442802125374,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.33367818510219616,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.26694255369852071,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689869160000000000",
+                            "endTimeNanos": "1689869280000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 2,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689877800000",
+            "endTimeMillis": "1689964200000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689911642999123903",
+                            "endTimeNanos": "1689962454831968565",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 3630,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689911908615053462",
+                            "endTimeNanos": "1689962295210842341",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 2664.4052867237197,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689877800000000000",
+                            "endTimeNanos": "1689964200000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 1970.1917284397434,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689950820000000000",
+                            "endTimeNanos": "1689962100000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 27,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 17,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689911938615053462",
+                            "endTimeNanos": "1689962284030842341",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.62126588094425983,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 2.292191749502436,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.25581994729441565,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689950760000000000",
+                            "endTimeNanos": "1689962280000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 34,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1689964200000",
+            "endTimeMillis": "1690050600000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689999062801773241",
+                            "endTimeNanos": "1690050081174346576",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 2918,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689999122801773241",
+                            "endTimeNanos": "1690049185074347309",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 1887.406400384958,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689964200000000000",
+                            "endTimeNanos": "1690050600000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 1945.2385328364455,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689999240000000000",
+                            "endTimeNanos": "1690008480000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 6,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 6,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689999164721771407",
+                            "endTimeNanos": "1690049172804347309",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.44828535570522215,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 1.5699804888464512,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.25581994729441565,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1689999120000000000",
+                            "endTimeNanos": "1690049220000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 35,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1690050600000",
+            "endTimeMillis": "1690137000000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690050929941406057",
+                            "endTimeNanos": "1690136265401958209",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 2819,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690059256040904064",
+                            "endTimeNanos": "1690136265401958209",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 1722.0080521052932,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690050600000000000",
+                            "endTimeNanos": "1690137000000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 1896.3434540459261,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690097040000000000",
+                            "endTimeNanos": "1690136040000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 6,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 5,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690059286040904064",
+                            "endTimeNanos": "1690136225481957701",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.3960912349990024,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 2.0202190958060462,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.26694255369852071,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690095300000000000",
+                            "endTimeNanos": "1690136280000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 31,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        },
+        {
+            "startTimeMillis": "1690137000000",
+            "endTimeMillis": "1690223400000",
+            "dataset": [
+                {
+                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690137049775210750",
+                            "endTimeNanos": "1690191574362560863",
+                            "dataTypeName": "com.google.step_count.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "intVal": 3306,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+                    "point": []
+                },
+                {
+                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690137500069348624",
+                            "endTimeNanos": "1690191574362560863",
+                            "dataTypeName": "com.google.distance.delta",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 2414.9312620627043,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690137000000000000",
+                            "endTimeNanos": "1690223400000000000",
+                            "dataTypeName": "com.google.calories.expended",
+                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                            "value": [
+                                {
+                                    "fpVal": 2007.158756178035,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690143420000000000",
+                            "endTimeNanos": "1690188000000000000",
+                            "dataTypeName": "com.google.heart_minutes.summary",
+                            "value": [
+                                {
+                                    "fpVal": 22,
+                                    "mapVal": []
+                                },
+                                {
+                                    "intVal": 19,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690137530069348624",
+                            "endTimeNanos": "1690188171482547568",
+                            "dataTypeName": "com.google.speed.summary",
+                            "originDataSourceId": "raw:com.google.step_count.cumulative:Xiaomi:POCO F1:fa45151:pedometer  Non-wakeup",
+                            "value": [
+                                {
+                                    "fpVal": 0.73360834693575183,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 2.3327354518865495,
+                                    "mapVal": []
+                                },
+                                {
+                                    "fpVal": 0.28918776650673078,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+                    "point": [
+                        {
+                            "startTimeNanos": "1690143240000000000",
+                            "endTimeNanos": "1690188180000000000",
+                            "dataTypeName": "com.google.active_minutes",
+                            "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                            "value": [
+                                {
+                                    "intVal": 38,
+                                    "mapVal": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+                    "point": []
+                }
+            ]
+        }
+    ]
+}
