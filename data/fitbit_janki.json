@@ -1,309 +1,1733 @@
 {
     "bucket": [
-        {
-            "startTimeMillis": "1687026600000",
-            "endTimeMillis": "1687113000000",
-            "dataset": [
-                {
-                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687057357731408752",
-                            "endTimeNanos": "1687107770434379728",
-                            "dataTypeName": "com.google.step_count.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "intVal": 5219,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
-                    "point": []
-                },
-                {
-                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687057652176244806",
-                            "endTimeNanos": "1687106777208805941",
-                            "dataTypeName": "com.google.distance.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "fpVal": 3002.3729514666047,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687026600000000000",
-                            "endTimeNanos": "1687113000000000000",
-                            "dataTypeName": "com.google.calories.expended",
-                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
-                            "value": [
-                                {
-                                    "fpVal": 1646.6770838565167,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                }
+      {
+        "startTimeMillis": "1688927400000",
+        "endTimeMillis": "1689013800000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1688953517700481872",
+                "endTimeNanos": "1689008532729479192",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 7665,
+                    "mapVal": []
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "startTimeMillis": "1687113000000",
-            "endTimeMillis": "1687199400000",
-            "dataset": [
-                {
-                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687113991519732373",
-                            "endTimeNanos": "1687194816415110355",
-                            "dataTypeName": "com.google.step_count.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "intVal": 6667,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
-                    "point": []
-                },
-                {
-                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687143226723200554",
-                            "endTimeNanos": "1687184908196241621",
-                            "dataTypeName": "com.google.distance.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "fpVal": 4198.31583553889,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687113000000000000",
-                            "endTimeNanos": "1687199400000000000",
-                            "dataTypeName": "com.google.calories.expended",
-                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
-                            "value": [
-                                {
-                                    "fpVal": 1588.6548845833333,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                }
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1688954102759570647",
+                "endTimeNanos": "1689008532729479192",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 4392.4879666353627,
+                    "mapVal": []
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "startTimeMillis": "1687199400000",
-            "endTimeMillis": "1687285800000",
-            "dataset": [
-                {
-                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687228630939792498",
-                            "endTimeNanos": "1687279425303100300",
-                            "dataTypeName": "com.google.step_count.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "intVal": 8483,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
-                    "point": []
-                },
-                {
-                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687228630939792498",
-                            "endTimeNanos": "1687272145244697841",
-                            "dataTypeName": "com.google.distance.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "fpVal": 5348.6975033605631,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687199400000000000",
-                            "endTimeNanos": "1687285800000000000",
-                            "dataTypeName": "com.google.calories.expended",
-                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
-                            "value": [
-                                {
-                                    "fpVal": 1673.0651924220533,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                }
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1688927400000000000",
+                "endTimeNanos": "1689013800000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1750.2382161841733,
+                    "mapVal": []
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "startTimeMillis": "1687285800000",
-            "endTimeMillis": "1687372200000",
-            "dataset": [
-                {
-                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687310690303442029",
-                            "endTimeNanos": "1687369400412167352",
-                            "dataTypeName": "com.google.step_count.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "intVal": 5963,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
-                    "point": []
-                },
-                {
-                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687332575524646802",
-                            "endTimeNanos": "1687359261114817447",
-                            "dataTypeName": "com.google.distance.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "fpVal": 3576.8603030636314,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687285800000000000",
-                            "endTimeNanos": "1687372200000000000",
-                            "dataTypeName": "com.google.calories.expended",
-                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
-                            "value": [
-                                {
-                                    "fpVal": 1611.7215223997307,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                }
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1688967660000000000",
+                "endTimeNanos": "1688971440000000000",
+                "dataTypeName": "com.google.heart_minutes.summary",
+                "value": [
+                  {
+                    "fpVal": 10,
+                    "mapVal": []
+                  },
+                  {
+                    "intVal": 10,
+                    "mapVal": []
+                  }
+                ]
+              }
             ]
-        },
-        {
-            "startTimeMillis": "1687372200000",
-            "endTimeMillis": "1687458600000",
-            "dataset": [
-                {
-                    "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687389041529581332",
-                            "endTimeNanos": "1687454393063772881",
-                            "dataTypeName": "com.google.step_count.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "intVal": 960,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
-                    "point": []
-                },
-                {
-                    "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687401159846605221",
-                            "endTimeNanos": "1687452258529516094",
-                            "dataTypeName": "com.google.distance.delta",
-                            "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
-                            "value": [
-                                {
-                                    "fpVal": 321.53806099981517,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
-                    "point": [
-                        {
-                            "startTimeNanos": "1687372200000000000",
-                            "endTimeNanos": "1687458600000000000",
-                            "dataTypeName": "com.google.calories.expended",
-                            "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
-                            "value": [
-                                {
-                                    "fpVal": 1426.2731165277778,
-                                    "mapVal": []
-                                }
-                            ]
-                        }
-                    ]
-                }
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1688954132759570647",
+                "endTimeNanos": "1689008502729478168",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.37079460178636842,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 1.2502403768808847,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.24853163750957116,
+                    "mapVal": []
+                  }
+                ]
+              }
             ]
-        }
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1688964660000000000",
+                "endTimeNanos": "1689000600000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 101,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689013800000",
+        "endTimeMillis": "1689100200000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689040359500470570",
+                "endTimeNanos": "1689097173310448928",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 853,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689040359500470570",
+                "endTimeNanos": "1689097173310448928",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 311.8976875574416,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689013800000000000",
+                "endTimeNanos": "1689100200000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1471.4697158222302,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689040391500472618",
+                "endTimeNanos": "1689097143310447904",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.29616888351356274,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.3471921120245941,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.292487294141489,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689048480000000000",
+                "endTimeNanos": "1689060060000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 5,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689100200000",
+        "endTimeMillis": "1689186600000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689131423588614239",
+                "endTimeNanos": "1689185816265087804",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 2935,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689133358118645000",
+                "endTimeNanos": "1689185816265087804",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 1566.2090387824028,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689100200000000000",
+                "endTimeNanos": "1689186600000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1537.4225340116955,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689139440000000000",
+                "endTimeNanos": "1689181320000000000",
+                "dataTypeName": "com.google.heart_minutes.summary",
+                "value": [
+                  {
+                    "fpVal": 2,
+                    "mapVal": []
+                  },
+                  {
+                    "intVal": 2,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689133394118647048",
+                "endTimeNanos": "1689185780095724157",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.46902024259757019,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 1.2952219627871973,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.27566714809369841,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689137160000000000",
+                "endTimeNanos": "1689185820000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 33,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689186600000",
+        "endTimeMillis": "1689273000000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689211482874969670",
+                "endTimeNanos": "1689270087891750906",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 1017,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689221986912128522",
+                "endTimeNanos": "1689269970748279451",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 385.55359620186033,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689186600000000000",
+                "endTimeNanos": "1689273000000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1461.5356427626568,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689227400000000000",
+                "endTimeNanos": "1689234720000000000",
+                "dataTypeName": "com.google.heart_minutes.summary",
+                "value": [
+                  {
+                    "fpVal": 2,
+                    "mapVal": []
+                  },
+                  {
+                    "intVal": 2,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689222008198426204",
+                "endTimeNanos": "1689269933748275867",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.68379735730623381,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 1.1669102502296456,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.26742791024015089,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689224160000000000",
+                "endTimeNanos": "1689234720000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 8,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689273000000",
+        "endTimeMillis": "1689359400000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689297240428138657",
+                "endTimeNanos": "1689358440954494487",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 808,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689306837717433190",
+                "endTimeNanos": "1689351435908920959",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 306.18076249276072,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689273000000000000",
+                "endTimeNanos": "1689359400000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1442.3975373862468,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689310599720074339",
+                "endTimeNanos": "1689351396908922495",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.31799731499436235,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.62769536751239086,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.27566714809369841,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689310560000000000",
+                "endTimeNanos": "1689351420000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 10,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689359400000",
+        "endTimeMillis": "1689445800000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689382410837059961",
+                "endTimeNanos": "1689441419038775083",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 714,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689396369619803271",
+                "endTimeNanos": "1689439356392659333",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 198.23791932746798,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689359400000000000",
+                "endTimeNanos": "1689445800000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1437.9999877214429,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689396399619803271",
+                "endTimeNanos": "1689439306288103891",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.2888906526208409,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.81771209578020454,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.26205511593097458,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689397320000000000",
+                "endTimeNanos": "1689439320000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 3,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689445800000",
+        "endTimeMillis": "1689532200000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689476098343994489",
+                "endTimeNanos": "1689527469484601083",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 563,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689484563323645999",
+                "endTimeNanos": "1689527469484601083",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 214.42966019574112,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689445800000000000",
+                "endTimeNanos": "1689532200000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1437.9999877214432,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689484606323646511",
+                "endTimeNanos": "1689527431484600059",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.42963142495368445,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.66828305155501078,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.27566714809369841,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689484620000000000",
+                "endTimeNanos": "1689527460000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 5,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689532200000",
+        "endTimeMillis": "1689618600000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689535552842667182",
+                "endTimeNanos": "1689612496749548523",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 462,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689535552842667182",
+                "endTimeNanos": "1689594112161815392",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 200.25249257949378,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689532200000000000",
+                "endTimeNanos": "1689618600000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1437.9999877214432,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689535593842668718",
+                "endTimeNanos": "1689594082161815392",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.34069153629059179,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.66921164389172239,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.25597663751557709,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689535560000000000",
+                "endTimeNanos": "1689587640000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 5,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689618600000",
+        "endTimeMillis": "1689705000000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689646266943099150",
+                "endTimeNanos": "1689686386216475431",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 3458,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689660737379559608",
+                "endTimeNanos": "1689686386216475431",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 2065.997605177989,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689618600000000000",
+                "endTimeNanos": "1689705000000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1539.6640502755713,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689684960000000000",
+                "endTimeNanos": "1689686160000000000",
+                "dataTypeName": "com.google.heart_minutes.summary",
+                "value": [
+                  {
+                    "fpVal": 2,
+                    "mapVal": []
+                  },
+                  {
+                    "intVal": 2,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689660768379560120",
+                "endTimeNanos": "1689686352475724323",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.46514395422678428,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 1.0911635905690888,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.26582189280463775,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689661740000000000",
+                "endTimeNanos": "1689686340000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 37,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689705000000",
+        "endTimeMillis": "1689791400000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689705123100964538",
+                "endTimeNanos": "1689788235948607176",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 679,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689729697226533211",
+                "endTimeNanos": "1689788235948607176",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 175.14775243568619,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689705000000000000",
+                "endTimeNanos": "1689791400000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1446.7454579999885,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689743346266120960",
+                "endTimeNanos": "1689788224438716434",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.29164462017278286,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.41376917943901426,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.24696657097729302,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689743280000000000",
+                "endTimeNanos": "1689788220000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 5,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689791400000",
+        "endTimeMillis": "1689877800000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689822823082596784",
+                "endTimeNanos": "1689868773753028847",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 4449,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689831667625108544",
+                "endTimeNanos": "1689840439625000000",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 2590.8773818692025,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689791400000000000",
+                "endTimeNanos": "1689877800000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1437.9999877214432,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689836053625054272",
+                "endTimeNanos": "1689836053625054272",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.29535766232655092,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.29535766232655092,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.29535766232655092,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689831720000000000",
+                "endTimeNanos": "1689840420000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 145,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689877800000",
+        "endTimeMillis": "1689964200000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689882461057511405",
+                "endTimeNanos": "1689960078636291855",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 900,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689882461057511405",
+                "endTimeNanos": "1689960078636291855",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 369.70144117082668,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689877800000000000",
+                "endTimeNanos": "1689964200000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1437.9999877214432,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689903709145555783",
+                "endTimeNanos": "1689960048636291855",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.29869896539117657,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.52072254750256552,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.25597663751557709,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689918540000000000",
+                "endTimeNanos": "1689951840000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 10,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1689964200000",
+        "endTimeMillis": "1690050600000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690002565242887360",
+                "endTimeNanos": "1690038316637219274",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 1173,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690002565242887360",
+                "endTimeNanos": "1690019229176836964",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 606.66463091191781,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1689964200000000000",
+                "endTimeNanos": "1690050600000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1440.6412925897773,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690003503242943680",
+                "endTimeNanos": "1690019199176836964",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.29228391449191071,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.29535764977634227,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.26582189280463775,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690002600000000000",
+                "endTimeNanos": "1690004400000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 30,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1690050600000",
+        "endTimeMillis": "1690137000000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690083207074519618",
+                "endTimeNanos": "1690126641434598500",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 1031,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690086684694246705",
+                "endTimeNanos": "1690117835281721944",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 460.94304547481164,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690050600000000000",
+                "endTimeNanos": "1690137000000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1451.5408195871762,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690086727694247217",
+                "endTimeNanos": "1690117764322654045",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.29175049307816309,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.84053831242599852,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.26205329689017159,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690090020000000000",
+                "endTimeNanos": "1690117800000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 9,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      },
+      {
+        "startTimeMillis": "1690137000000",
+        "endTimeMillis": "1690223400000",
+        "dataset": [
+          {
+            "dataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690138300633308582",
+                "endTimeNanos": "1690216035853463279",
+                "dataTypeName": "com.google.step_count.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "intVal": 187,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.weight.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.distance.delta:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690205032419352256",
+                "endTimeNanos": "1690216035853463279",
+                "dataTypeName": "com.google.distance.delta",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 63.797254273113062,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.calories.expended:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690137000000000000",
+                "endTimeNanos": "1690223400000000000",
+                "dataTypeName": "com.google.calories.expended",
+                "originDataSourceId": "derived:com.google.calories.expended:com.google.android.gms:merge_calories_expended",
+                "value": [
+                  {
+                    "fpVal": 1440.6507506916553,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_minutes.summary:com.google.android.gms:aggregated",
+            "point": []
+          },
+          {
+            "dataSourceId": "derived:com.google.speed.summary:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690205062419352256",
+                "endTimeNanos": "1690215982853463791",
+                "dataTypeName": "com.google.speed.summary",
+                "originDataSourceId": "raw:com.google.step_count.cumulative:samsung:SM-G770F:d1754c9c:step_counter  Non-wakeup",
+                "value": [
+                  {
+                    "fpVal": 0.28524841307480375,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.29535766152508619,
+                    "mapVal": []
+                  },
+                  {
+                    "fpVal": 0.26582189280463775,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.active_minutes:com.google.android.gms:aggregated",
+            "point": [
+              {
+                "startTimeNanos": "1690215960000000000",
+                "endTimeNanos": "1690216020000000000",
+                "dataTypeName": "com.google.active_minutes",
+                "originDataSourceId": "derived:com.google.step_count.delta:com.google.android.gms:estimated_steps",
+                "value": [
+                  {
+                    "intVal": 1,
+                    "mapVal": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "dataSourceId": "derived:com.google.heart_rate.summary:com.google.android.gms:aggregated",
+            "point": []
+          }
+        ]
+      }
     ]
-}
+  }

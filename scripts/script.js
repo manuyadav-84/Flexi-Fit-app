@@ -8,8 +8,8 @@ const users = [
         pass: '123'
     },
     {
-        user: 'anil',
-        pass: '321'
+        user: 'nikshit',
+        pass: '123'
     },
     {
         user: 'archana',
@@ -44,9 +44,11 @@ const login = function() {
     })
 }
 
+const allUsersDiv = [...(document.querySelectorAll('.user'))];
+allUsersDiv.forEach(el=> el ? el.innerText = localStorage.getItem("user").toLocaleUpperCase() : '');
 user = localStorage.getItem("user");
 
-console.log(user);
+// console.log(user, allUsersDiv);
 
 document.addEventListener('keyup', function(e){
     (e.keyCode === 13) ? login() : '';
@@ -65,7 +67,7 @@ async function getData() {
     console.log(data)
     const lastData = data.length
 
-    const selectData =  data.length;
+    const selectData =  1; // 1 means last day's data.
 
     let startTimeMillis = +(data[lastData - selectData].startTimeMillis);
     let endTimeMillis = +(data[lastData - selectData].endTimeMillis);
@@ -80,15 +82,10 @@ async function getData() {
 
     for (let i = 0; i < data.length; i++) {
         userWeeklySteps.push(data[i].dataset[0].point[0].value[0].intVal)
-      } 
-
-    // data.forEach((index)=>{
-    //     userWeeklySteps.push(data[index].dataset[0].point[0].value[0].intVal)
-    // })
-
-    console.log(userWeeklySteps)
-
-    console.log(distanceInKm, calories)
+    } 
+    const lastWeekSteps = userWeeklySteps.slice(userWeeklySteps.length - 7, userWeeklySteps.length);
+    console.log(userWeeklySteps, lastWeekSteps)
+    // console.log(distanceInKm, calories)
 
     let convertMilliSec = (x) => {
         const nanoToMilliSec = +(String(Math.ceil(x / 1000000)))
@@ -119,11 +116,11 @@ async function getData() {
     const durationInMnt = (durationInMs / 60000)
     const durationInHrs = msToTime(durationInMs);
 
-    console.log("startTimenanosecond", convertMilliSec(startTimenanosecond));
-    console.log("endTimenanosecond", convertMilliSec(endTimenanosecond));
-    console.log(durationInMs);
-    console.log(durationInMnt);
-    console.log(durationInHrs);
+    // console.log("startTimenanosecond", convertMilliSec(startTimenanosecond));
+    // console.log("endTimenanosecond", convertMilliSec(endTimenanosecond));
+    // console.log(durationInMs);
+    // console.log(durationInMnt);
+    // console.log(durationInHrs);
     console.log(userSteps);
 
     const stepsEl = document.getElementById('steps');
@@ -137,11 +134,18 @@ async function getData() {
     caloriesEl ? (caloriesEl.innerText = calories + ' kcal') : '';
 
     const targetSteps = document.querySelector('.targetValue');
-    console.log(+(targetSteps.innerText));
+    const missedTarget = document.querySelector('#missedTarget');
+    const completedTarget = document.querySelector('#completedTarget');
+    // console.log(+(targetSteps?.innerText));
+    // console.log(missedTarget, completedTarget);
 
-    if(stepsElCount > 6000){
-
-    } 
+    if(userSteps < 6000){
+        console.error('missedTarget')
+        missedTarget?.classList.add('show')
+    } else {
+        console.error('completedTarget')
+        completedTarget?.classList.add('show')
+    }
 
     ////Charts js
 
@@ -152,7 +156,7 @@ async function getData() {
             labels: ['Mon', 'Tue', 'Wed', 'Thr', 'Fri', 'Sat', 'Sun'],
             datasets: [{
                 label: 'Steps',
-                data: userWeeklySteps.reverse(),
+                data: lastWeekSteps,
                 borderWidth: 1,
             }]
         },
@@ -178,23 +182,57 @@ const pageBmi = document.getElementById("bmi");
 const weightConditionEl = document.getElementById("weight-condition");
 const weightConditionElPage = document.getElementById("w-condition");
 let bmiImg = document.querySelector('#BIM-img img')?.getAttribute('src');
-console.log(bmiImg);
+// console.log(bmiImg);
+
+async function getBmiData(objNum) {
+    const bmi_data_res= await fetch(`./data/bmi_category_data.json`);
+    const bmi_data= await bmi_data_res.json();
+
+    // const data = bmi_data.bucket;
+    console.log('bmi_data', bmi_data)
+
+    const bmiModal = document.querySelector('#bmiModal');
+    const modalHeading = bmiModal.querySelector('#bmiModalLabel');
+    const modalCard = bmiModal.querySelector('.card');
+    const modalSubHeading =  bmiModal.querySelector('.modalSubHeading');
+    const bmiSelectedItem = bmi_data.bmi_category[objNum];
+    // console.log(bmiSelectedItem);
+    const classList = ["text-bg-dark", "text-bg-info", "text-bg-warning", "text-bg-danger"]
+    classList.forEach(el => {
+        modalCard.classList.contains(el) ? modalCard.classList.remove(el) : ''
+    })
+    modalCard.classList.add(bmiSelectedItem.className)
+    modalHeading.innerHTML = bmiSelectedItem.title;
+    modalSubHeading.innerHTML = bmiSelectedItem.subTitle;
+    const pointsArray = bmiSelectedItem.points
+    pointsArray.forEach((item) => {
+        // console.log(item);
+        let list = document.createElement("li");
+        list.innerHTML = item;
+        const olList = bmiModal.querySelector('.card-text ol')
+        // console.log(olList);
+        if(olList.childElementCount <= 4){
+            olList.appendChild(list);
+        }
+    });
+    document.querySelector('#bmiModalBtn').click()
+};
 
 function calculateBMI() {
     const heightValue = document.getElementById("height").value / 100;
     const weightValue = document.getElementById("weight").value;
     const bmiValue = weightValue / (heightValue * heightValue);
     const suggestions = document.querySelector('#suggestions');
-    const suggestionsCards = [...(suggestions.querySelectorAll('.card'))];
+    // const suggestionsCards = [...(suggestions.querySelectorAll('.card'))];
     const removeClass = (id) => {
         suggestions.querySelector(`#${id}`).classList.remove('d-none');
     }
 
-    suggestionsCards.forEach((el)=>{
-        if(!el.classList.contains('d-none')){
-            el.classList.add('d-none');
-        }
-    });
+    // suggestionsCards.forEach((el)=>{
+    //     if(!el.classList.contains('d-none')){
+    //         el.classList.add('d-none');
+    //     }
+    // });
 
     const scrollto = () => {
         window.scrollTo({
@@ -213,23 +251,27 @@ function calculateBMI() {
     if (bmiValue < 18.5) {
         weightConditionElPage.innerText = "Underweight";
         document.querySelector('#BIM-img img').src = `./images/thin.png`;
-        removeClass('underweight');
-        scrollto();
+        getBmiData(0);
+        // removeClass('underweight');
+        // scrollto();
     } else if (bmiValue >= 18.5 && bmiValue <= 24.9) {
         weightConditionElPage.innerText = "Normal weight";
         document.querySelector('#BIM-img img').src = `./images/person.png`;
-        removeClass('normalweight')
-        scrollto();
+        getBmiData(1);
+        // removeClass('normalweight')
+        // scrollto();
     } else if (bmiValue >= 25 && bmiValue <= 29.9) {
         weightConditionElPage.innerText = "Overweight";
         document.querySelector('#BIM-img img').src = `./images/fat-man.png`;
-        removeClass('overweight')
-        scrollto();
+        getBmiData(2);
+        // removeClass('overweight')
+        // scrollto();
     } else if (bmiValue >= 30) {
         weightConditionElPage.innerText = "Obese";
         document.querySelector('#BIM-img img').src = `./images/man.png`;
-        removeClass('obese')
-        scrollto();
+        getBmiData(3);
+        // removeClass('obese')
+        // scrollto();
     }
     const barValue = ((bmiValue - 15) * 100) / 25;
     console.log(barValue);
@@ -247,5 +289,4 @@ heartCard?.addEventListener('mouseenter', () => {
 heartCard?.addEventListener('mouseleave', () => {
     heartCard.querySelector('img').src = "./images/heartbeat.png"
 })
-console.log(heartCard);
-
+// console.log(heartCard);
