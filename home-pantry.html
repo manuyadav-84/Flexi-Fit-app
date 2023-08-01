@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Home Pantry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-image: url('../images/backgrpund3.jpg');
+            background-repeat: no-repeat, repeat;
+            background-size: cover;
+            background-position-x: center;
+
+        }
+
+        .container-fluid {
+            width: 100%;
+            height: auto;
+            padding: 0px 0px 80px 0px;
+        }
+
+        .container {
+            width: 1200px;
+            height: auto;
+            margin: auto;
+        }
+
+        .container .row {
+            text-align: right;
+            padding-top: 20px;
+            font-size: 30px;
+
+        }
+
+        .container .search {
+            display: flex;
+            padding: 30px 0px;
+            justify-content: space-between;
+        }
+
+        .container .search h1 {
+            letter-spacing: 3px;
+            display: inline-block;
+            padding-bottom: 10px;
+            border-bottom: 2px salmon solid;
+
+        }
+
+        .container .search input {
+            width: 60%;
+            padding: 5px 16px;
+            font-size: 20px;
+            text-transform: capitalize;
+            border: silver 1px solid;
+            border-radius: 5px;
+            letter-spacing: 3px;
+        }
+
+        .container .search input::placeholder {
+
+            color: salmon;
+            font-weight: 500;
+        }
+
+        .container .recipes-list .recipes-wrap {
+            border: solid 1px #ededed;
+            border-radius: 10px;
+            padding: 25px;
+            margin: 20px 0px;
+            background-color: #fff;
+        }
+
+        .container .recipes-list .recipes-wrap h1 {
+            visibility: hidden;
+            margin: 0px;
+            padding: 0px;
+            height: 1px;
+        }
+
+        .container .recipes-list .recipes-wrap p {
+            font-size: 16px;
+            padding: 10px 0px;
+        }
+
+        .container .recipes-list .recipes-wrap p b {
+            color: #fa8072;
+        }
+
+        .container .recipes-list .recipes-wrap ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+
+        .container .recipes-list .recipes-wrap ul li {
+            font-size: 14px;
+            padding: 3px 0px 3px 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row"> <a class="fs-1 text-dark-emphasis me-4" href="flexi-dashboard.html">
+                    <i class="fa-solid fa-house"></i>
+                </a></div>
+            <div class="search">
+                <h1>Search Your Recipes</h1>
+                <input type="text" name="" id="find" placeholder="Search here..." onkeyup="searchRecipes()"  />
+               
+            </div>
+
+            <div class="recipes-list">
+                <div class="recipes-wrap">
+                    <h1 class="keywords">Ghee</h1>
+                    <p>Ghee is a rich source of healthy fats and can be added to various dishes to increase their
+                        caloric content.</p>
+                    <h3>Ghee Rice:</h3>
+                    <p><b>Ingredients:</b></p>
+                    <ul>
+                        <li>1 cup basmati rice</li>
+                        <li>2 tablespoons ghee</li>
+                        <li>1 cinnamon stick</li>
+                        <li>2-3 cloves</li>
+                        <li>2-3 cardamom pods</li>
+                        <li> Salt to taste</li>
+                        <li>2 cups water</li>
+                    </ul>
+                    <p><b>Instructions:</b></p>
+                    <ul>
+                        <li>- Rinse the rice thoroughly and soak it in water for 30 minutes. Drain the water after
+                            soaking.</li>
+                        <li>- In a pot, heat the ghee and add the whole spices (cinnamon, cloves, cardamom, and bay
+                            leaf). Sauté for a minute until aromatic.</li>
+                        <li>- Add the soaked rice and sauté for a couple of minutes.</li>
+                        <li>- Pour in the water and add salt. Bring it to a boil, then reduce the heat to low, cover,
+                            and cook until the rice is fully cooked and fluffy.</li>
+                        <li>- Serve the ghee rice with your choice of curry or vegetable dish.</li>
+                    </ul>
+                </div>
+                <div class="recipes-wrap">
+                    <h1 id="keywords">Oats Onion Tomato</h1>
+                    <p>This Masala Oats recipe is a healthy and filling option, perfect for a quick breakfast or a light
+                        lunch. Feel free to add any other vegetables or spices you like to customize the flavor
+                        according to your taste preferences. Enjoy!</p>
+                    <h3>Masala Oats:</h3>
+                    <p><b>Ingredients:</b></p>
+                    <ul>
+                        <li>1 cup rolled oats</li>
+                        <li>1 small onion, finely chopped</li>
+                        <li>1 small tomato, finely chopped</li>
+                        <li>1/2 cup frozen peas (or any other vegetables of your choice)</li>
+                        <li>1 teaspoon oil (vegetable or olive oil)</li>
+                        <li> 1/2 teaspoon mustard seeds</li>
+                        <li>1/2 teaspoon cumin seeds</li>
+                        <li>1/2 teaspoon turmeric powder</li>
+                        <li>1/2 teaspoon red chili powder (adjust to your spice preference)</li>
+                        <li>Salt to taste</li>
+                        <li>Fresh coriander leaves for garnish</li>
+                    </ul>
+                    <p><b>Instructions:</b></p>
+                    <ul>
+                        <li>- Dry roast the rolled oats in a pan over medium heat for 2-3 minutes until they turn
+                            slightly golden. Set aside.</li>
+                        <li>- In the same pan, add oil and heat it over medium heat. Add the mustard seeds and cumin
+                            seeds. Let them splutter.</li>
+                        <li>- Add the chopped onion and sauté until it becomes translucent.</li>
+                        <li>- Stir in the chopped tomatoes and cook for a couple of minutes until they soften.</li>
+                        <li>- Add the frozen peas (or any other vegetables you prefer) and cook for another 2-3 minutes.
+                        </li>
+                        <li>- Add turmeric powder, red chili powder, and salt. Mix well.</li>
+                        <li>- Pour in 2 cups of water and bring it to a boil. Once the water comes to a boil, reduce the
+                            heat to low and add the roasted oats. Stir well to avoid lumps.</li>
+                        <li>- Cook the oats on low heat for about 5-7 minutes, or until they are cooked and have
+                            absorbed the water. If you prefer a runny consistency, you can add more water.</li>
+                        <li>- Garnish with fresh coriander leaves (optional) and serve hot.</li>
+
+                    </ul>
+                </div>
+                <div class="recipes-wrap">
+                    <h1 id="keywords">Tomato Oats Onion</h1>
+                    <p>This Masala Oats recipe is a healthy and filling option, perfect for a quick breakfast or a light
+                        lunch. Feel free to add any other vegetables or spices you like to customize the flavor
+                        according to your taste preferences. Enjoy!</p>
+                    <h3>Masala Oats:</h3>
+                    <p><b>Ingredients:</b></p>
+                    <ul>
+                        <li>1 cup rolled oats</li>
+                        <li>1 small onion, finely chopped</li>
+                        <li>1 small tomato, finely chopped</li>
+                        <li>1/2 cup frozen peas (or any other vegetables of your choice)</li>
+                        <li>1 teaspoon oil (vegetable or olive oil)</li>
+                        <li> 1/2 teaspoon mustard seeds</li>
+                        <li>1/2 teaspoon cumin seeds</li>
+                        <li>1/2 teaspoon turmeric powder</li>
+                        <li>1/2 teaspoon red chili powder (adjust to your spice preference)</li>
+                        <li>Salt to taste</li>
+                        <li>Fresh coriander leaves for garnish</li>
+                    </ul>
+                    <p><b>Instructions:</b></p>
+                    <ul>
+                        <li>- Dry roast the rolled oats in a pan over medium heat for 2-3 minutes until they turn
+                            slightly golden. Set aside.</li>
+                        <li>- In the same pan, add oil and heat it over medium heat. Add the mustard seeds and cumin
+                            seeds. Let them splutter.</li>
+                        <li>- Add the chopped onion and sauté until it becomes translucent.</li>
+                        <li>- Stir in the chopped tomatoes and cook for a couple of minutes until they soften.</li>
+                        <li>- Add the frozen peas (or any other vegetables you prefer) and cook for another 2-3 minutes.
+                        </li>
+                        <li>- Add turmeric powder, red chili powder, and salt. Mix well.</li>
+                        <li>- Pour in 2 cups of water and bring it to a boil. Once the water comes to a boil, reduce the
+                            heat to low and add the roasted oats. Stir well to avoid lumps.</li>
+                        <li>- Cook the oats on low heat for about 5-7 minutes, or until they are cooked and have
+                            absorbed the water. If you prefer a runny consistency, you can add more water.</li>
+                        <li>- Garnish with fresh coriander leaves (optional) and serve hot.</li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+
+        function searchRecipes() {
+
+            let filter = document.getElementById('find').value.toUpperCase();
+            let item = document.querySelectorAll('.recipes-wrap');
+            let getKeyword = document.getElementsByTagName('h1');
+            
+
+            function findCommonElement(array1, array2) {
+                console.log(array1, array2, "array1, array2");
+                for (let i = 0; i < array1.length; i++) {
+                    for (let j = 0; j < array2.length; j++) {
+                        if (array1[i] === array2[j]) {
+                            return true;
+                        }
+                    }
+                }
+                return false;
+            }
+
+
+            for (var i = 0; i <= getKeyword.length; i++) {
+                let a = item[i].getElementsByTagName('h1')[0];
+                let value = a.innerHTML || a.innerText || a.textContent;
+                let getFilterData = filter.split(" ")
+                let getValue = value.toUpperCase().split(" ")
+                
+                var getSameValue = findCommonElement(getFilterData, getValue);
+                console.log(getSameValue, getValue, getFilterData)
+
+                if (getSameValue) {
+                    item[i].style.display = ''
+                } else {
+                    item[i].style.display = 'none';
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
