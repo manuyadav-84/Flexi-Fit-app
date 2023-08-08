@@ -14,10 +14,10 @@
         }
 
         body {
-            background-image: url('../images/backgrpund3.jpg');
-            background-repeat: no-repeat, repeat;
-            background-size: cover;
-            background-position-x: center;
+            background-image: url('../images/backgeound-image.jpg');
+         
+            background-size: 30%;
+           
 
         }
 
@@ -26,7 +26,34 @@
             height: auto;
             padding: 0px 0px 80px 0px;
         }
-
+        .header-wrap{
+            background-color: #bca07b;
+    padding: 10px;
+    border-bottom: solid 5px #fff;
+    opacity: 0.9;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+        }
+        .header-wrap .innerText{
+            display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+        }
+        .header-wrap .innerText i{
+            color: #fff;
+        }
+        .header-wrap .innerText h2{
+            letter-spacing: 1px;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 32px;
+        }
+        .topSpace-100 {
+            padding-top: 100px;
+        }
         .container {
             width: 1200px;
             height: auto;
@@ -54,14 +81,46 @@
 
         }
 
-        .container .search input {
-            width: 60%;
+        .container .search form  {
+           
+            padding: 10px;
+            font-size: 20px;
+            text-transform: capitalize;
+          
+            border-radius: 5px;
+            letter-spacing: 3px;
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+        }
+        .container .search form input {
+           
             padding: 5px 16px;
             font-size: 20px;
             text-transform: capitalize;
-            border: silver 1px solid;
+            border: silver 1px #000;
             border-radius: 5px;
             letter-spacing: 3px;
+            width: 75%;
+           
+        }
+        .btnSearch{
+            width: 124px;
+    border: solid 1px #a96e02;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: orange;
+    color: #fff;
+    padding: 8px;
+        }
+        .btnReset{
+            width: 124px;
+    border: solid 1px #ac0101;
+    margin: 0px 0px 0px 10px;
+    border-radius: 5px;
+    background-color: #ff3d00;
+    color: #fff;
+    padding: 8px;
         }
 
         .container .search input::placeholder {
@@ -112,122 +171,31 @@
 
 <body>
     <div class="container-fluid">
-        <div class="container">
-            <div class="row"> <a class="fs-1 text-dark-emphasis me-4" href="flexi-dashboard.html">
+        <div class="header-wrap ">
+            <div class="container">
+              <div class="row innerText">
+                <div><h2>Search Your Recipes</h2></div>
+                <div><a class="fs-1 text-dark-emphasis me-4" href="flexi-dashboard.html">
                     <i class="fa-solid fa-house"></i>
                 </a></div>
+            </div>
+        </div>
+        </div>
+        <div class="container topSpace-100">
+       
             <div class="search">
-                <h1>Search Your Recipes</h1>
-                <input type="text" name="" id="find" placeholder="Search here..." onkeyup="searchRecipes()"  />
-               
+          
+                <form id="search-books">
+                <input type="text" name="search" id="search">
+                <button name="search_btn" class="btnSearch">Search</button>
+                <button name="reset" type="reset" class="btnReset">Reset</button>
+               </form>
             </div>
 
-            <div class="recipes-list">
-                <div class="recipes-wrap">
-                    <h1 class="keywords">Ghee</h1>
-                    <p>Ghee is a rich source of healthy fats and can be added to various dishes to increase their
-                        caloric content.</p>
-                    <h3>Ghee Rice:</h3>
-                    <p><b>Ingredients:</b></p>
-                    <ul>
-                        <li>1 cup basmati rice</li>
-                        <li>2 tablespoons ghee</li>
-                        <li>1 cinnamon stick</li>
-                        <li>2-3 cloves</li>
-                        <li>2-3 cardamom pods</li>
-                        <li> Salt to taste</li>
-                        <li>2 cups water</li>
-                    </ul>
-                    <p><b>Instructions:</b></p>
-                    <ul>
-                        <li>- Rinse the rice thoroughly and soak it in water for 30 minutes. Drain the water after
-                            soaking.</li>
-                        <li>- In a pot, heat the ghee and add the whole spices (cinnamon, cloves, cardamom, and bay
-                            leaf). Sauté for a minute until aromatic.</li>
-                        <li>- Add the soaked rice and sauté for a couple of minutes.</li>
-                        <li>- Pour in the water and add salt. Bring it to a boil, then reduce the heat to low, cover,
-                            and cook until the rice is fully cooked and fluffy.</li>
-                        <li>- Serve the ghee rice with your choice of curry or vegetable dish.</li>
-                    </ul>
-                </div>
-                <div class="recipes-wrap">
-                    <h1 id="keywords">Oats Onion Tomato</h1>
-                    <p>This Masala Oats recipe is a healthy and filling option, perfect for a quick breakfast or a light
-                        lunch. Feel free to add any other vegetables or spices you like to customize the flavor
-                        according to your taste preferences. Enjoy!</p>
-                    <h3>Masala Oats:</h3>
-                    <p><b>Ingredients:</b></p>
-                    <ul>
-                        <li>1 cup rolled oats</li>
-                        <li>1 small onion, finely chopped</li>
-                        <li>1 small tomato, finely chopped</li>
-                        <li>1/2 cup frozen peas (or any other vegetables of your choice)</li>
-                        <li>1 teaspoon oil (vegetable or olive oil)</li>
-                        <li> 1/2 teaspoon mustard seeds</li>
-                        <li>1/2 teaspoon cumin seeds</li>
-                        <li>1/2 teaspoon turmeric powder</li>
-                        <li>1/2 teaspoon red chili powder (adjust to your spice preference)</li>
-                        <li>Salt to taste</li>
-                        <li>Fresh coriander leaves for garnish</li>
-                    </ul>
-                    <p><b>Instructions:</b></p>
-                    <ul>
-                        <li>- Dry roast the rolled oats in a pan over medium heat for 2-3 minutes until they turn
-                            slightly golden. Set aside.</li>
-                        <li>- In the same pan, add oil and heat it over medium heat. Add the mustard seeds and cumin
-                            seeds. Let them splutter.</li>
-                        <li>- Add the chopped onion and sauté until it becomes translucent.</li>
-                        <li>- Stir in the chopped tomatoes and cook for a couple of minutes until they soften.</li>
-                        <li>- Add the frozen peas (or any other vegetables you prefer) and cook for another 2-3 minutes.
-                        </li>
-                        <li>- Add turmeric powder, red chili powder, and salt. Mix well.</li>
-                        <li>- Pour in 2 cups of water and bring it to a boil. Once the water comes to a boil, reduce the
-                            heat to low and add the roasted oats. Stir well to avoid lumps.</li>
-                        <li>- Cook the oats on low heat for about 5-7 minutes, or until they are cooked and have
-                            absorbed the water. If you prefer a runny consistency, you can add more water.</li>
-                        <li>- Garnish with fresh coriander leaves (optional) and serve hot.</li>
-
-                    </ul>
-                </div>
-                <div class="recipes-wrap">
-                    <h1 id="keywords">Tomato Oats Onion</h1>
-                    <p>This Masala Oats recipe is a healthy and filling option, perfect for a quick breakfast or a light
-                        lunch. Feel free to add any other vegetables or spices you like to customize the flavor
-                        according to your taste preferences. Enjoy!</p>
-                    <h3>Masala Oats:</h3>
-                    <p><b>Ingredients:</b></p>
-                    <ul>
-                        <li>1 cup rolled oats</li>
-                        <li>1 small onion, finely chopped</li>
-                        <li>1 small tomato, finely chopped</li>
-                        <li>1/2 cup frozen peas (or any other vegetables of your choice)</li>
-                        <li>1 teaspoon oil (vegetable or olive oil)</li>
-                        <li> 1/2 teaspoon mustard seeds</li>
-                        <li>1/2 teaspoon cumin seeds</li>
-                        <li>1/2 teaspoon turmeric powder</li>
-                        <li>1/2 teaspoon red chili powder (adjust to your spice preference)</li>
-                        <li>Salt to taste</li>
-                        <li>Fresh coriander leaves for garnish</li>
-                    </ul>
-                    <p><b>Instructions:</b></p>
-                    <ul>
-                        <li>- Dry roast the rolled oats in a pan over medium heat for 2-3 minutes until they turn
-                            slightly golden. Set aside.</li>
-                        <li>- In the same pan, add oil and heat it over medium heat. Add the mustard seeds and cumin
-                            seeds. Let them splutter.</li>
-                        <li>- Add the chopped onion and sauté until it becomes translucent.</li>
-                        <li>- Stir in the chopped tomatoes and cook for a couple of minutes until they soften.</li>
-                        <li>- Add the frozen peas (or any other vegetables you prefer) and cook for another 2-3 minutes.
-                        </li>
-                        <li>- Add turmeric powder, red chili powder, and salt. Mix well.</li>
-                        <li>- Pour in 2 cups of water and bring it to a boil. Once the water comes to a boil, reduce the
-                            heat to low and add the roasted oats. Stir well to avoid lumps.</li>
-                        <li>- Cook the oats on low heat for about 5-7 minutes, or until they are cooked and have
-                            absorbed the water. If you prefer a runny consistency, you can add more water.</li>
-                        <li>- Garnish with fresh coriander leaves (optional) and serve hot.</li>
-
-                    </ul>
-                </div>
+            <div class="recipes-list" id="recipes-list">
+                
+               
+               
 
             </div>
 
@@ -236,43 +204,121 @@
     </div>
 
     <script type="text/javascript">
+        var pantryData = [
 
-        function searchRecipes() {
-
-            let filter = document.getElementById('find').value.toUpperCase();
-            let item = document.querySelectorAll('.recipes-wrap');
-            let getKeyword = document.getElementsByTagName('h1');
-            
-
-            function findCommonElement(array1, array2) {
-                console.log(array1, array2, "array1, array2");
-                for (let i = 0; i < array1.length; i++) {
-                    for (let j = 0; j < array2.length; j++) {
-                        if (array1[i] === array2[j]) {
-                            return true;
-                        }
-                    }
-                }
-                return false;
-            }
-
-
-            for (var i = 0; i <= getKeyword.length; i++) {
-                let a = item[i].getElementsByTagName('h1')[0];
-                let value = a.innerHTML || a.innerText || a.textContent;
-                let getFilterData = filter.split(" ")
-                let getValue = value.toUpperCase().split(" ")
-                
-                var getSameValue = findCommonElement(getFilterData, getValue);
-                console.log(getSameValue, getValue, getFilterData)
-
-                if (getSameValue) {
-                    item[i].style.display = ''
-                } else {
-                    item[i].style.display = 'none';
-                }
-            }
+        {
+            "id":"1",
+            "keyword":"Ghee",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Ghee</h1><p>Ghee is a rich source of healthy fats and can be added to various dishes to increase their caloric content.</p><h3>Ghee Rice</h3><p><b>Ingredients:</b></p><ul><li>1 cup basmati rice</li><li>2 tablespoons ghee</li><li>1 cinnamon stick</li><li>2-3 cloves</li><li>2-3 cardamom pods</li><li>1 bay leaf</li><li>Salt to taste</li><li>2 cups water</li></ul><p><b>Instructions:</b></p><ul><li>- Rinse the rice thoroughly and soak it in water for 30 minutes. Drain the water after soaking.</li><li>- In a pot, heat the ghee and add the whole spices (cinnamon, cloves, cardamom, and bay leaf). Sauté for a minute until aromatic.</li><li>- Add the soaked rice and sauté for a couple of minutes.</li><li>- Pour in the water and add salt. Bring it to a boil, then reduce the heat to low, cover, and cook until the rice is fully cooked and fluffy.</li><li>- Serve the ghee rice with your choice of curry or vegetable dish.</li></ul></div>"
+        },
+        {
+            "id":"2",
+            "keyword":"Paneer",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Paneer</h1><p>Paneer is a high-protein dairy product that can be used in various dishes.</p><h3>Paneer Tikka Masala:</h3><p><b>Ingredients:</b></p><ul><li>250g paneer, cut into cubes</li><li>1 cup yogurt</li><li>1 tablespoon ginger-garlic paste</li><li>1 tablespoon tandoori masala</li><li>1 tablespoon vegetable oil</li><li>1 onion, finely chopped</li><li>2 tomatoes, pureed</li><li>1/2 cup heavy cream</li><li>1 teaspoon garam masala</li><li>Salt to taste</li><li>Fresh coriander leaves for garnish</li></ul><p><b>Instructions:</b></p><ul><li>- In a bowl, mix yogurt, ginger-garlic paste, tandoori masala, and salt.</li>><li>- Add paneer cubes to the marinade and let it sit for at least 30 minutes.</li>><li>- In a pan, heat vegetable oil and sauté chopped onions until golden brown.</li>><li>- Add the tomato puree and cook until the oil separates from the mixture.</li>><li>- Stir in the marinated paneer and cook for a few minutes.</li>><li>- Add heavy cream and garam masala. Simmer for a couple of minutes until the sauce thickens.</li>><li>- Garnish with fresh coriander leaves and serve with naan or rice.</li></ul></div>"
+        },
+        {
+            "id":"3",
+            "keyword":"Dry Fruit and Nuts",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Dry Fruit and Nuts</h1><p>Dried Fruits and Nuts: Indian snacks like dry fruits and nuts are rich in healthy fats and calories.</p><h3>Dry Fruit Ladoo:</h3><p><b>Ingredients:</b></p><ul><li>1 cup mixed nuts (almonds, cashews, pistachios), finely chopped</li><li>1 cup mixed dried fruits (dates, figs, apricots), finely chopped</li><li>2 tablespoons ghee</li><li>1/4 teaspoon cardamom powder</li><li>1/4 cup desiccated coconut (optional, for coating)</li></ul><p><b>Instructions:</b></p><ul><li>- In a pan, heat the ghee and lightly roast the chopped nuts and dried fruits for a few minutes.</li><li>- Add cardamom powder and mix well.</li><li>- Turn off the heat and let the mixture cool slightly.</li><li>- While the mixture is still warm, take small portions and shape them into ladoos (round balls).</li><li>- If desired, roll the ladoos in desiccated coconut for extra flavor and texture.</li><li>- Let the ladoos cool completely before storing them in an airtight container.</li></ul></div>"
+        },
+        {
+            "id":"4",
+            "keyword":"Chickpeas (Chana)",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Chickpeas (Chana)</h1><p>Chickpeas (Chana): Chickpeas are a good source of protein, fiber, and complex carbohydrates.</p><h3>Chana Masala Recipe</h3><p><b>Ingredients:</b></p><ul><li>1 cup dried chickpeas (or 2 cups canned chickpeas, drained and rinsed)</li><li>2 tablespoons vegetable oil</li><li>1 large onion, finely chopped</li><li>2 tomatoes, pureed or finely chopped</li><li>2 cloves garlic, minced</li><li>1-inch piece of ginger, grated</li><li>1 teaspoon cumin seeds</li><li>1 teaspoon ground coriander</li><li>1/2 teaspoon turmeric powder</li><li>1/2 teaspoon garam masala</li><li>1/2 teaspoon red chili powder (adjust to your spice preference)</li><li>Salt to taste</li><li>Fresh cilantro for garnish</li></ul><p><b>Instructions:</b></p><ul><li>- If using dried chickpeas, soak them overnight and cook them until tender. If using canned chickpeas, rinse them thoroughly.</li><li>- In a large pan, heat the vegetable oil and add cumin seeds. Let them sizzle for a few seconds.</li><li>- Add chopped onions and sauté until they turn golden brown.</li><li>- Add minced garlic and grated ginger. Cook for another minute.</li><li>- Add the ground coriander, turmeric, garam masala, red chili powder, and salt. Mix well and cook for a couple of minutes to allow the spices to release their flavors.</li><li>- Add the pureed or chopped tomatoes and cook until the oil starts to separate from the masala.</li><li>- Add the cooked chickpeas and some water (if needed) to achieve the desired consistency. Simmer for 10-15 minutes.</li><li>- Garnish with fresh cilantro and serve the Chana Masala with rice or roti.</li></ul></div>"
+        },
+        {
+            "id":"5",
+            "keyword":"Sweet Potatoes",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Sweet Potatoes</h1><p>Sweet Potatoes: Sweet potatoes are rich in complex carbohydrates, fiber, and various vitamins and minerals.</p><h3>Sweet Potato and Lentil Curry Recipe:</h3><p><b>Ingredients:</b></p><ul><li>2 large sweet potatoes, peeled and diced</li><li>1 cup red lentils, washed and soaked (optional)</li><li>1 tablespoon vegetable oil</li><li>1 large onion, finely chopped</li><li>2 tomatoes, pureed or finely chopped</li><li>1-inch piece of ginger, grated</li><li>2 cloves garlic, minced</li><li>1 teaspoon cumin seeds</li><li>1 teaspoon ground coriander</li><li>1/2 teaspoon turmeric powder</li><li>1/2 teaspoon red chili powder (adjust to your spice preference)</li><li>Salt to taste</li><li>Fresh cilantro for garnish</li></ul><p><b>Instructions:</b></p><ul><li>- If using lentils, soak them for 30 minutes before cooking.</li><li>- In a large pot, heat the vegetable oil and add cumin seeds. Let them sizzle for a few seconds.</li><li>- Add chopped onions and sauté until they turn golden brown.</li><li>- Add minced garlic and grated ginger. Cook for another minute.</li><li>- Add the ground coriander, turmeric, red chili powder, and salt. Mix well and cook for a couple of minutes to allow the spices to release their flavors.</li><li>- Add the pureed or chopped tomatoes and cook until the oil starts to separate from the masala.</li><li>- Add the diced sweet potatoes and lentils (if using). Mix well and add enough water to cover the ingredients.</li><li>- Simmer until the sweet potatoes and lentils are cooked and tender.</li><li>- Garnish with fresh cilantro and serve the Sweet Potato and Lentil Curry with rice or roti.</li></ul></div>"
+        },
+        {
+            "id":"6",
+            "keyword":"Milk and Almond",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Milk and Almond</h1><p>Milk and Almond Shake: Milk is a good source of protein and calcium, while almonds provide healthy fats and nutrients.</p><h3>Almond Milkshake Recipe:</h3><p><b>Ingredients:</b></p><ul><li>1 cup almonds, soaked overnight</li><li>2 cups milk (or a dairy-free alternative)</li><li>2 tablespoons honey (or sweetener of your choice)</li><li>1/2 teaspoon vanilla extract (optional)</li><li>Ice cubes (optional)</li></ul><p><b>Instructions:</b></p><ul><li>- Drain and rinse the soaked almonds. Remove the skin if you prefer a smoother texture.</li><li>- In a blender, combine the almonds, milk, honey, and vanilla extract (if using).</li><li>- Blend until you get a smooth and creamy consistency.</li><li>- If you prefer a colder shake, add some ice cubes and blend again.</li><li>- Pour the almond milkshake into glasses and enjoy this nutritious and calorie-rich beverage.</li></ul></div>"
+        },
+        {
+            "id":"7",
+            "keyword":"Banana",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Banana</h1><p>Banana and Peanut Butter Smoothie: Bananas are rich in carbohydrates, fiber, and essential vitamins, while peanut butter is high in healthy fats and protein..</p><h3>Banana and Peanut Butter Smoothie:</h3><p><b>Ingredients:</b></p><ul><li>2 ripe bananas</li><li>2 tablespoons of peanut butter (natural, without added sugars)</li><li>1 cup of milk (dairy or plant-based)</li><li>1 tablespoon of honey (optional, for added sweetness)</li><li>Ice cubes (optional)</li></ul><p><b>Instructions:</b></p><ul><li>- Peel the bananas and place them in a blender.</li><li>- Add the peanut butter, milk, and honey (if using) to the blender.</li><li>- Blend until smooth and creamy.</li><li>- If you prefer a thicker smoothie, add some ice cubes and blend again.</li><li>- Pour the smoothie into a glass and enjoy as a nutritious and calorie-dense beverage.</li></ul></div>"
+        },
+        {
+            "id":"8",
+            "keyword":"Avocado",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Avocado</h1><p>Avocado Toast: Avocado is a great source of healthy fats, fiber, and various vitamins and minerals.</p><h3>Avocado Toast Recipe:</h3><p><b>Ingredients:</b></p><ul><li>2 slices of whole-grain bread</li><li>1 ripe avocado</li><li>1 tablespoon of olive oil</li><li>Salt and pepper to taste</li><li>Optional toppings: sliced tomatoes, feta cheese, or a poached egg</li></ul><p><b>Instructions:</b></p><ul><li>- Toast the slices of whole-grain bread until they reach your desired level of crispiness.</li><li>- While the bread is toasting, cut the avocado in half, remove the pit, and scoop the flesh into a bowl.</li><li>- Mash the avocado with a fork and mix in the olive oil, salt, and pepper.</li><li>- Once the toast is ready, spread the mashed avocado mixture evenly onto each slice.</li><li>- Add any optional toppings you desire.</li><li>- Enjoy the avocado toast as a healthy and calorie-dense snack or meal.</li></ul></div>"
+        },
+        {
+            "id":"9",
+            "keyword":"Quinoa",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Quinoa</h1><p>Quinoa and Chickpea Salad: Quinoa is a nutrient-dense grain that provides carbohydrates and protein, while chickpeas (garbanzo beans) are an excellent source of protein and fiber.</p><h3>Quinoa and Chickpea Salad Recipe:</h3><p><b>Ingredients:</b></p><ul><li>1 cup cooked quinoa</li><li>1 cup cooked chickpeas (canned or boiled)</li><li>1 red bell pepper, diced</li><li>1/4 cup chopped fresh parsley</li><li>1/4 cup crumbled feta cheese (optional)</li><li>2 tablespoons olive oil</li><li>1 tablespoon lemon juice</li><li>Salt and pepper to taste</li></ul><p><b>Instructions:</b></p><ul><li>- In a large bowl, combine the cooked quinoa, chickpeas, diced cucumber, diced red bell pepper, and chopped parsley.</li><li>- If using feta cheese, add it to the bowl as well.</li><li>- In a small bowl, whisk together the olive oil, lemon juice, salt, and pepper to make the dressing.</li><li>- Pour the dressing over the quinoa and chickpea mixture and toss everything together until well coated.</li><li>- Serve the quinoa and chickpea salad as a nutritious and calorie-dense side dish or light meal.</li></ul></div>"
+        },
+        {
+            "id":"10",
+            "keyword":"Oats, Onion, Tomato",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>Oats, Onion, Tomato</h1><p>This Masala Oats recipe is a healthy and filling option, perfect for a quick breakfast or a light lunch. Feel free to add any other vegetables or spices you like to customize the flavor according to your taste preferences. Enjoy!</p><h3>Masala Oats</h3><p><b>Ingredients:</b></p><ul><li>1 cup rolled oats</li><li>1 small onion, finely chopped</li><li>1 small tomato, finely chopped</li><li>1/2 cup frozen peas (or any other vegetables of your choice)</li><li>1 teaspoon oil (vegetable or olive oil)</li><li>1/2 teaspoon mustard seeds</li><li>1/2 teaspoon cumin seeds</li><li>1/2 teaspoon turmeric powder</li><li>1/2 teaspoon red chili powder (adjust to your spice preference)</li><li>Salt to taste</li><li>Fresh coriander leaves for garnish</li></ul><p><b>Instructions:</b></p><ul><li>1. Dry roast the rolled oats in a pan over medium heat for 2-3 minutes until they turn slightly golden. Set aside.</li><li>2. In the same pan, add oil and heat it over medium heat. Add the mustard seeds and cumin seeds. Let them splutter.</li><li>3. Add the chopped onion and sauté until it becomes translucent.</li><li>4. Stir in the chopped tomatoes and cook for a couple of minutes until they soften.</li><li>5. Add the frozen peas (or any other vegetables you prefer) and cook for another 2-3 minutes.</li><li>6. Add turmeric powder, red chili powder, and salt. Mix well.</li><li>7. Pour in 2 cups of water and bring it to a boil. Once the water comes to a boil, reduce the heat to low and add the roasted oats. Stir well to avoid lumps.</li><li>8. Cook the oats on low heat for about 5-7 minutes, or until they are cooked and have absorbed the water. If you prefer a runny consistency, you can add more water.</li><li>9. Garnish with fresh coriander leaves (optional) and serve hot.</li></ul><p>This Masala Oats recipe is a healthy and filling option, perfect for a quick breakfast or a light lunch. Feel free to add any other vegetables or spices you like to customize the flavor according to your taste preferences. Enjoy!</p></div>"
+        },
+        {
+            "id":"11",
+            "keyword":"yogurt, cucumber",
+            "data":"<div class='recipes-wrap'><h1 id='keywords'>yogurt, cucumber</h1><p>Cucumber raita is a refreshing and cooling side dish that pairs well with Indian main courses like biryani, pulao, or any spicy curry. It also makes for a delicious dip with pita bread or vegetable sticks.</p><h3>Cucumber Raita:</h3><p><b>Ingredients:</b></p><ul><li>1 cup plain yogurt (preferably Greek yogurt for a thicker consistency)</li><li>1 small cucumber, grated or finely chopped</li><li>1/2 teaspoon cumin powder</li><li>A pinch of black salt (or regular salt)</li><li>Fresh coriander leaves for garnish (optional)</li></ul><p><b>Instructions:</b></p><ul><li>1. In a bowl, whisk the plain yogurt until it becomes smooth.</li><li>2. Add the grated or finely chopped cucumber to the yogurt and mix well.</li><li>3. Sprinkle cumin powder and black salt over the mixture. Stir to combine all the ingredients evenly.</li><li>4. Garnish with fresh coriander leaves if desired.</li><li>5. Refrigerate the cucumber raita for at least 15-20 minutes before serving to allow the flavors to meld.</li></ul></div>"
         }
+    
+        ]
+
+        var render = function(data) {
+            console.log(data);
+    var recipesList = document.getElementById('recipes-list');
+   for(var i = 0; i < data.length; i++){
+    recipesList.innerHTML += data[i].data
+   }
+  }
+  render(pantryData);
+
+  var handleSearch = function(event) {
+    event.preventDefault();
+   
+    var searchTerm = event.target.elements['search'].value;
+
+    var tokens = searchTerm
+                  .toLowerCase()
+                  .split(' ')
+                  .filter(function(token){
+                    return token.trim() !== '';
+                  });
+   if(tokens.length) {
+ 
+    var searchTermRegex = new RegExp(tokens.join('|'), 'gim');
+    var filteredList = pantryData.filter(function(pantry){
+
+      var pantryString = '';
+      for(var key in pantry) {
+        if(pantry.hasOwnProperty(key) && pantry[key] !== '') {
+            pantryString += pantry[key].toString().toLowerCase().trim() + ' ';
+        }
+      }
+    
+      return pantryString.match(searchTermRegex);
+    });
+ 
+
+    document.getElementById('recipes-list').innerHTML = " ";
+    render(filteredList);
+   }
+  };
+
+  document.addEventListener('submit', handleSearch);
+  document.addEventListener('reset', function(event){
+    event.preventDefault();
+    render(pantryData);
+  })
+
+
+
+
+
+
+
+
+
     </script>
 
 </body>
